@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+
+    <!-- INHERIT AND EXTEND theme_default_snippets -->
+    <template id="email_theme_wita_snippets_overrides_prat2" inherit_id="fso_website_email.theme_framework_snippets" name="Email Theme wita Snippet overrides part2">
+
+        <xpath expr="//li[@id='snippet_menu_special']" position="after">
+            <li id="snippet_menu_combined_snippets_wita">
+                <a href="#combined_snippets_wita" data-toggle="tab">Combined</a>
+            </li>
+        </xpath>
+
+        <!-- ======================= -->
+        <!--  wita COMBINED SNIPPETS -->
+        <!-- ======================= -->
+        <xpath expr="//div[@id='snippet_email_special']" position="after">
+            <div id="combined_snippets_wita" class="tab-pane fade">
+
+             <!-- HEADER SNIPPET BLOCK ALLG -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_wita/static/src/icons/header_snippet.png"/>
+                        <span class="oe_snippet_thumbnail_title">Header Snippet</span>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+
+</data>
+</openerp>
