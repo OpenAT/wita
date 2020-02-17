@@ -19,8 +19,12 @@ CRM settings for the instance wita
     'installable': True,
     'depends': [
         'wita_config',
+        'fsonline',
     ],
     'data': [
+        'data/wita_user_groups.xml',
+        'security/ir.model.access.csv',
+        'views/webclient.xml',
         'views/res_partner.xml',
     ],
 }

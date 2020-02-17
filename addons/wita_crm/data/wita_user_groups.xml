@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="0">
+
+        <!--
+            WITA USER GROUP TO READ PARTNER DATA
+        -->
+        <record id="group_wita_read" model="res.groups">
+            <field name="name">Wiener Tafeln CRM Read</field>
+            <field name="comment">
+                Wiener Tafel CRM User Group to read partner data
+            </field>
+        </record>
+
+
+        <!--
+            WITA USER GROUP TO READ AND WRITE PARTNER DATA
+        -->
+        <!-- TODO: Inherit group 'group_wita_read' -->
+        <!--<record id="group_wita_write" model="res.groups">-->
+        <!--    <field name="name">Wiener Tafeln CRM Write</field>-->
+        <!--    <field name="comment">-->
+        <!--        Wiener Tafel Users to read and write partner data-->
+        <!--    </field>-->
+        <!--</record>-->
+
+
+
+    </data>
+</openerp>
