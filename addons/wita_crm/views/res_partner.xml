@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+
+        <!-- Extend Partner Tree view with extra fields (for search view) -->
+        <record id="view_res_partner_tree_wita" model="ir.ui.view">
+            <field name="name">Wiener Tafeln Partner Tree Extensions</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_tree"/>
+            <field name="arch" type="xml">
+                <field name="user_id" position="after">
+                    <field name="firstname" invisible="1"/>
+                    <field name="lastname" invisible="1"/>
+                    <field name="city" invisible="1"/>
+                    <field name="zip" invisible="1"/>
+                    <field name="street" invisible="1"/>
+                </field>
+            </field>
+        </record>
+
+        <!-- Extend Partner Search View with extra fields -->
+        <record id="view_res_partner_search_wita" model="ir.ui.view">
+            <field name="name">Wiener Tafeln Partner Search Extensions</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_res_partner_filter"/>
+            <field name="arch" type="xml">
+                <field name="name" position="after">
+                    <field name="firstname"/>
+                    <field name="lastname"/>
+                    <field name="email"/>
+                    <field name="phone"/>
+                    <field name="city"/>
+                    <field name="zip"/>
+                    <field name="street"/>
+                    <field name="country_id"/>
+                </field>
+            </field>
+        </record>
+
+    </data>
+</openerp>
