@@ -33,9 +33,100 @@
                     <field name="zip"/>
                     <field name="street"/>
                     <field name="country_id"/>
+                    <field name="sosync_fs_id"/>
                 </field>
             </field>
         </record>
+
+        <!-- === -->
+        <!-- New Search View, Tree View and Window Action Requested by Lukas from the Wiener Tafeln -->
+        <!-- === -->
+        <record id="view_res_partner_search_wita_custom" model="ir.ui.view">
+            <field name="name">Wiener Tafeln Partner Custom Search</field>
+            <field name="model">res.partner</field>
+            <field name="arch" type="xml">
+                <search string="Search Partner">
+                    <field name="display_name"/>
+                    <field name="firstname"/>
+                    <field name="lastname"/>
+                    <field name="email"/>
+                    <field name="phone"/>
+                    <field name="mobile"/>
+                    <field name="city"/>
+                    <field name="zip"/>
+                    <field name="street"/>
+                    <field name="street_number_web" string="Str.Nr."/>
+                    <field name="country_id"/>
+                    <field name="sosync_fs_id"/>
+                    <separator/>
+                    <filter string="Benutzer" name="type_person" domain="[('user_ids','!=',False)]"/>
+                    <filter string="Kein-Benutzer" name="type_person" domain="[('user_ids','=',False)]"/>
+                    <separator/>
+                    <filter string="Personen" name="type_person" domain="[('is_company','=',0)]"/>
+                    <filter string="Firmen" name="type_company" domain="[('is_company','=',1)]"/>
+                    <separator/>
+                    <filter string="OptOut" name="opt_out" domain="[('opt_out','=',1)]"/>
+                   <group expand="1" string="Gruppieren">
+                       <filter string="Firma" context="{'group_by': 'parent_id'}"/>
+                       <filter string="Land" context="{'group_by': 'country_id'}"/>
+                       <filter string="Stadt" context="{'group_by': 'city'}"/>
+                       <filter string="Plz." context="{'group_by': 'zip'}"/>
+                   </group>
+                </search>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="wita_partner_tree">
+            <field name="name">wita_partner_tree</field>
+            <field name="model">res.partner</field>
+            <field name="arch" type="xml">
+                <tree string="Partner">
+                    <field name="firstname"/>
+                    <field name="lastname"/>
+                    <field name="email"/>
+                    <field name="opt_out" string="OptOut"/>
+                    <field name="phone"/>
+                    <field name="mobile"/>
+                    <field name="city"/>
+                    <field name="zip"/>
+                    <field name="street"/>
+                    <field name="street_number_web" string="Str.Nr."/>
+                    <field name="country_id"/>
+                    <field name="sosync_fs_id"/>
+                    <!-- Hidden -->
+                    <field name="display_name" invisible="1"/>
+                    <field name="gender" string="Anrede" invisible="1"/>
+                    <field name="id" invisible="1"/>
+                    <field name="function" invisible="1"/>
+                    <field name="user_id" invisible="1"/>
+                    <field name="user_ids" invisible="1"/>
+                    <field name="is_company" invisible="1"/>
+                    <field name="parent_id" invisible="1"/>
+                    <field name="fax" invisible="1"/>
+                    <field name="anrede_individuell" invisible="1"/>
+                    <field name="title_web" invisible="1"/>
+                    <field name="birthdate_web" invisible="1"/>
+                    <field name="company_name_web" invisible="1"/>
+                    <field name="newsletter_web" invisible="1"/>
+                    <field name="category_id" invisible="1"/>
+                </tree>
+            </field>
+        </record>
+        <record id="windowaction_partner_form_wita" model="ir.actions.act_window">
+            <field name="name">Alle Kontakte</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,kanban,form</field>
+            <field name="search_view_id" ref="view_res_partner_search_wita_custom"/>
+        </record>
+        <record id="fso_all_leads_view_action_tree" model="ir.actions.act_window.view">
+            <field name="sequence" eval="10"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="wita_partner_tree"/>
+            <field name="act_window_id" ref="windowaction_partner_form_wita"/>
+        </record>
+        <menuitem id="menu_fsonline_partner_partner_wita" action="windowaction_partner_form_wita" parent="fso_base.menu_fsonline_organizer" name="Alle Kontakte" sequence="2005"/>
+
 
     </data>
 </openerp>
