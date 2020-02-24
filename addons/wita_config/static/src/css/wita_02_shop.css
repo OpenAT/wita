@@ -105,6 +105,9 @@ div.checkout_steps_buttons {
     text-align: center;
 }
 
+#wsd_checkout_form .form-control-feedback {
+    top: 25px;
+}
 
 /* ------- */
 /* PAYMENT */
@@ -135,6 +138,7 @@ div.checkout_steps_buttons {
 }
 #payment_method .nav.nav-tabs li.active a {
     background-color: #f8f8f8;
+    color: grey;
 }
 #payment_method .nav.nav-tabs li.active a:hover {
     background-color: #f8f8f8;
@@ -153,8 +157,9 @@ div.checkout_steps_buttons {
 }
 #payment_method .nav-tabs > li.active > a,
 #payment_method .nav-tabs > li.active > a:hover,
-#payment_method .nav-tabs > li.active > a:focus {
-    color: white;
+#payment_method .nav-tabs > li.active > a:focus,
+#payment_method .nav-tabs > li.active > a:active {
+    color: grey;
 }
 
 

@@ -74,3 +74,7 @@ body .oe_blue {
     background-color: #35477a !important;
     color: white;
 }
+
+.row.one-page-checkout.ppt_opc-checkout {
+    border: 1px solid #7777777a;
+}
