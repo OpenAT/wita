@@ -22,6 +22,7 @@
             </div>
         </xpath>
     </template>
+
     <!-- wita THEME AND CSS -->
     <template id="website.theme_wita" name="wita" inherit_id="website.theme" active="True" customize_show="True">
         <xpath expr="//link[@id='bootstrap_css']" position="replace">
@@ -42,11 +43,21 @@
             <link rel='stylesheet' href='/wita_config/static/src/css/wita_09_glyphicons.css' t-ignore="true"/>
         </xpath>
     </template>
-   <template id="wita_assets_editor" inherit_id="website.assets_editor" name="Wita Editor assets">
+
+    <!-- WITA frontend assets -->
+    <!-- ATTENTION: We hide some checkout fields based on a checkbox and remove or set the mandatory only in the frontend -->
+    <template id="assets_frontend" inherit_id="website.assets_frontend" name="wita frontend assets">
+        <xpath expr="." position="inside">
+            <script src="/wita_config/static/src/js/wita_hide_checkout_billing_fields.js"></script>
+        </xpath>
+    </template>
+
+    <!-- WITA editor assets -->
+    <template id="wita_assets_editor" inherit_id="website.assets_editor" name="Wita Editor assets">
        <xpath expr="." position="inside">
            <script type="text/javascript" src="/wita_config/static/src/js/wita_ckeditor.js"></script>
        </xpath>
-   </template>
+    </template>
 
     <!-- CHECKOUT-STEP-INDICATOR -->
     <template id="wita_wsd_checkout_pages_header" name="wita Checkout Steps Regular Buttons"
