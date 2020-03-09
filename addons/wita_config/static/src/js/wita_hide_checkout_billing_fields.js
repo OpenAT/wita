@@ -9,15 +9,15 @@ $(document).ready(function () {
         'zip': 'input',
         'city': 'input',
         'country_id': 'select',
-        };
+    };
     var billing_input_fields_to_hide_mandatory = [
         'birthdate',
         'street',
         'zip',
         'city',
-        ];
+    ];
     for (var cif in billing_input_fields_to_hide) {
-        billing_input_fields_to_hide[cif] = $(".billing-fields "+billing_input_fields_to_hide[cif]+"[name='"+cif+"']");
+        billing_input_fields_to_hide[cif] = $(".billing-fields " + billing_input_fields_to_hide[cif] + "[name='" + cif + "']");
     }
     var $donation_deduction_optout_web = $(".billing-fields input[name='donation_deduction_optout_web']");
 
@@ -29,11 +29,11 @@ $(document).ready(function () {
             for (var f_name in fields) {
 
                 // enable mandatory for some fields
-                if (f_name in mandatory_fields) {
-                  fields[f_name].attr('required', 'True');
-                  fields[f_name].attr('aria-required', 'True');
-                  var $f_label = fields[f_name].closest(".billing-fields label[for='"+f_name+"']");
-                  $f_label.addClass('mandatory');
+                if (mandatory_fields.includes(f_name)) {
+                    fields[f_name].attr('required', 'True');
+                    fields[f_name].attr('aria-required', 'true');
+                    var $f_label = $(".billing-fields label[for='" + f_name + "']");
+                    $f_label.addClass('mandatory text-danger');
                 }
 
                 // show form-roup
@@ -45,11 +45,11 @@ $(document).ready(function () {
             for (var f_name in fields) {
 
                 // disable mandatory
-                if (f_name in mandatory_fields) {
-                  fields[f_name].removeAttr('required');
-                  fields[f_name].removeAttr('aria-required');
-                  var $f_label = fields[f_name].closest(".billing-fields label[for='"+f_name+"']");
-                  $f_label.removeClass('mandatory');
+                if (mandatory_fields.includes(f_name)) {
+                    fields[f_name].removeAttr('required');
+                    fields[f_name].removeAttr('aria-required');
+                    var $f_label = $(".billing-fields label[for='" + f_name + "']");
+                    $f_label.removeClass('mandatory text-danger');
                 }
 
                 // hide form-group
