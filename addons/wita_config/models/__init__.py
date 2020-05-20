@@ -16,5 +16,4 @@
 #
 ##############################################################################
 
-#import controllers
-import models
+import res_partner
