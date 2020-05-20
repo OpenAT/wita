@@ -57,25 +57,28 @@
         <xpath expr="//div[@data-snippet-option-id='dadi_sb_fg_color']//ul" position="replace">
             <ul class="dropdown-menu">
                 <li data-value=''><a>None</a></li>
-                <li data-value='wita_sb_fg_red'><a>Red</a></li>
-                <li data-value='wita_sb_fg_blue'><a>Blue</a></li>
-                <li data-value='wita_sb_fg_background'><a>Background</a></li>
+                <li data-value='wita_sb_fg_red'><a>Rot</a></li>
+                <li data-value='wita_sb_fg_grey'><a>Grau</a></li>
+                <li data-value='wita_sb_fg_yellow'><a>Gelb</a></li>
+                <li data-value='wita_sb_fg_background'><a>Hintergrund</a></li>
             </ul>
         </xpath>
         
         <!-- wita Background styles -->
         <xpath expr="//div[@data-snippet-option-id='dadi_sb_bg_color']//ul" position="replace">
             <ul class="dropdown-menu">
-                <li data-value='wita_sb_bg_red'><a>Red</a></li>
-                <li data-value='wita_sb_bg_blue'><a>Blue</a></li>
-                <li data-value='wita_sb_bg_background'><a>Background</a></li>
+                <li data-value=''><a>None</a></li>
+                <li data-value='wita_sb_bg_red'><a>Rot</a></li>
+                <li data-value='wita_sb_bg_grey'><a>Grau</a></li>
+                <li data-value='wita_sb_bg_yellow'><a>Gelb</a></li>
+                <li data-value='wita_sb_bg_background'><a>Hintergrund</a></li>
             </ul>
         </xpath>
         
         <!-- .drop_in_button Extra Styles -->
         <xpath expr="//li[@data-value='dadi_di_button_default']" position="after">
-<!--            <li data-value='wita_di_button_red'><a>Red</a></li>-->
-            <li data-value='dadi_di_button_blue'><a>Blue</a></li>
+            <li data-value='wita_di_button_red'><a>Rot</a></li>
+            <li data-value='dadi_di_button_Graue'><a>Grau</a></li>
 <!--            <li data-value='wita_di_button_green'><a>Green</a></li>-->
         </xpath>
         
@@ -139,8 +142,8 @@
             <li data-value='bpbutton_style_green'>
                 <a>Gruen</a>
             </li>
-            <li data-value='bpbutton_style_blue'>
-                <a>Blau</a>
+            <li data-value='bpbutton_style_grey'>
+                <a>Graue</a>
             </li>
            <li data-value='bpbutton_style_yellow'>
                 <a>Gelb</a>
@@ -184,11 +187,11 @@
                  data-selector=".snippet_block_text_image_left">
                 <!-- drop_in options menu -->
                 <li class="dropdown-submenu" data-required="true">
-                    <a tabindex="-1" href="#">Rote Nasen Styles</a>
+                    <a tabindex="-1" href="#">Wita special Styles</a>
                     <ul class="dropdown-menu">
                         <li data-value=''><a>Default</a></li>
-                        <li data-value='wita_text_image_red_box'><a>Red Box</a></li>
-                        <li data-value='wita_text_image_blue_box'><a>Blue Box</a></li>
+                        <li data-value='wita_text_image_red_box'><a>Rote Box</a></li>
+                        <li data-value='wita_text_image_witagrey_box'><a>Graue Box</a></li>
                     </ul>
                 </li>
             </div>

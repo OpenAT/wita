@@ -86,6 +86,13 @@
     color: #ffffff;
     font-weight: bold;
 }
+.snippet_block_bpbutton.bpbutton_style_red .bpbutton_table,
+.snippet_block_bpbutton.bpbutton_style_red .bpbutton_table a {
+    background-color: #e7480b;
+    border-color: #e7480b;
+    color: #ffffff;
+    font-weight: bold;
+}
 
 /* green */
 .snippet_block_bpbutton.bpbutton_style_green .bpbutton_table,
@@ -96,10 +103,10 @@
     font-weight: bold;
 }
 /* blue */
-.snippet_block_bpbutton.bpbutton_style_blue .bpbutton_table,
-.snippet_block_bpbutton.bpbutton_style_blue .bpbutton_table a {
-    background-color: #364979;
-    border-color: #364979;
+.snippet_block_bpbutton.bpbutton_style_grey .bpbutton_table,
+.snippet_block_bpbutton.bpbutton_style_grey .bpbutton_table a {
+    background-color: #666666;
+    border-color: #666666;
     color: white;
     font-weight: bold;
 }

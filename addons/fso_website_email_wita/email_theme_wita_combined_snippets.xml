@@ -4,7 +4,8 @@
 
 
     <!-- INHERIT AND EXTEND theme_default_snippets -->
-    <template id="email_theme_wita_snippets_overrides_prat2" inherit_id="fso_website_email.theme_framework_snippets" name="Email Theme wita Snippet overrides part2">
+    <template id="email_theme_wita_snippets_overrides_prat2" inherit_id="fso_website_email.theme_framework_snippets"
+              name="Email Theme wita Snippet overrides part2">
 
         <xpath expr="//li[@id='snippet_menu_special']" position="after">
             <li id="snippet_menu_combined_snippets_wita">
@@ -18,14 +19,439 @@
         <xpath expr="//div[@id='snippet_email_special']" position="after">
             <div id="combined_snippets_wita" class="tab-pane fade">
 
-             <!-- HEADER SNIPPET BLOCK ALLG -->
+                <!-- HEADER SNIPPET BLOCK ALLG -->
                 <!-- =============== -->
                 <div>
                     <!-- Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_wita/static/src/icons/header_snippet.png"/>
+                             src="/fso_website_email_wita/static/src/icons/wita_header_icon.png"/>
                         <span class="oe_snippet_thumbnail_title">Header Snippet</span>
+                    </div>
+                    <div id="combinedheadersnippetWebVersion" class="oe_snippet_body ckediting_disabled wita_bin">
+                     <div class="snippet_block ckediting_enabled snippet_block_text_intro wita_sb_bg_background">
+                        <table class="centeringTable" cellpadding="0" cellspacing="0">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="flexibleContainerCell" align="center" valign="top">
+                                                        <table class="nestedContainer" border="0" cellpadding="0"
+                                                               cellspacing="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="nestedContainerCell" align="center"
+                                                                        valign="top">
+                                                                        <table class="contentTable" border="0"
+                                                                               cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_enabled"
+                                                                                        contenteditable="true">
+                                                                                        <p class="wita_tiny"
+                                                                                           style="text-align: center;">
+                                                                                            <a href="%open_browser%" data-cke-saved-href="%open_browser%" target="_blank" style="text-align: center; color: gray; font-weight: 700; font-size: 12px;">Zur Webversion</a>
+                                                                                        </p>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="combinedheadersnippet" class="ckediting_enabled snippet_block_text_image_left wita_snippet_block_padding_none" style="padding-top: 10px;">
+                        <table cellpadding="0" cellspacing="0" class="centeringTable">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" class="flexibleContainerCell" valign="top">
+                                                        <table border="0" cellpadding="0" cellspacing="0"
+                                                               class="nestedContainer">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" class="nestedContainerCell"
+                                                                        valign="top">
+                                                                        <table border="0" cellpadding="0"
+                                                                               cellspacing="0" class="contentTable">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent">
+                                                                                        <table align="left"
+                                                                                               border="0"
+                                                                                               cellpadding="0"
+                                                                                               cellspacing="0"
+                                                                                               class="flexibleContainerLeft">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="left"
+                                                                                                        class="imageContent ckediting_enabled"
+                                                                                                        valign="top">
+                                                                                                        <a href="https://www.wienertafel.at">
+                                                                                                            <img class="flexibleImage"
+                                                                                                                 src="/fso_website_email_wita/static/src/img/WT_Logo_RZ_kl.png"></img>
+                                                                                                        </a>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+
+                                                                                        <table align="right"
+                                                                                               border="0"
+                                                                                               cellpadding="0"
+                                                                                               cellspacing="0"
+                                                                                               class="flexibleContainerRight">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td class="textContent ckediting_enabled"
+                                                                                                        valign="top">
+                                                                                                        <h3 style="text-align: right; vertical-align: bottom;">
+                                                                                                                <br/>
+                                                                                                                Der
+                                                                                                                Brückenschlag
+                                                                                                                vom
+                                                                                                                Überfluss
+                                                                                                                zum
+                                                                                                                Bedarf
+                                                                                                        </h3>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    </div>
+                </div>
+                <!-- FOOTER SNIPPET BLOCK -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_wita/static/src/icons/wita_footer_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Footer Snippet</span>
+                    </div>
+                    <div id="combinedsnippetfooter" class="oe_snippet_body ckediting_disabled wita_bin">
+
+                        <div class="ckediting_disabled snippet_block snippet_block_text_four_colums" contenteditable="false">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   width="25%"
+                                                                                                   class="flexibleContainer25 center">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            contenteditable="true">
+                                                                                                            <a href="https://www.wienertafel.at/spende/" style="text-align:center;">
+                                                                                                                    Spenden
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            <table border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   width="25%"
+                                                                                                   class="flexibleContainer25 center">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            contenteditable="true">
+                                                                                                            <a href="https://www.wienertafel.at/index.php?id=544" style="text-align:center;">
+                                                                                                                    Presse
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            <table border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   width="25%"
+                                                                                                   class="flexibleContainer25 center">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            contenteditable="true">
+                                                                                                            <a href="http://www.wienertafel.at/?id=136" style="text-align:center;">
+                                                                                                                    Hintergründe
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            <table border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   width="25%"
+                                                                                                   class="flexibleContainer25 center">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            contenteditable="true">
+                                                                                                            <a href="http://www.wienertafel.at/?id=388" style="text-align:center;">
+                                                                                                                    Impressum
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                        <div id="mediaicons"
+                             class="ckediting_enabled snippet_block snippet_block_text_threecol wita_sb_bg_grey">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                   class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell"
+                                                            valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center"
+                                                                            class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0"
+                                                                                   class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33left">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <a href="https://www.facebook.com/wienertafel/"
+                                                                                                               target="_blank">
+                                                                                                                <img class="flexibleImage mediaicon"
+                                                                                                                     src="/fso_website_email_wita/static/src/icons/social-icon-fb.svg"
+                                                                                                                     style="text-align:center; width:32px; height:32px;"/>
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33middle">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <a href="https://twitter.com/wiener_tafel"
+                                                                                                               target="_blank">
+                                                                                                                <img class="flexibleImage mediaicon"
+                                                                                                                     src="/fso_website_email_wita/static/src/icons/social-icon-tw.png"
+                                                                                                                     style="text-align:center; width:32px; height:32px;"/>
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33right">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <a href="https://www.youtube.com/wienertafel"
+                                                                                                               target="_blank">
+                                                                                                                <img class="flexibleImage mediaicon"
+                                                                                                                     src="/fso_website_email_wita/static/src/icons/social-icon-yt.svg"
+                                                                                                                     style="text-align:center; width:32px; height:32px;"/>
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div id="footerend" class="ckediting_disabled snippet_block snippet_block_text_intro">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                   class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell"
+                                                            valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center"
+                                                                            class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0"
+                                                                                   class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled">
+                                                                                            <p style="text-align: center;">
+                                                                                                <span style="color: rgb(51, 51, 51); font-size: 16px; background-color: transparent; text-align: center;">
+                                                                                                    Wiener Tafel -
+                                                                                                    Verein für sozialen
+                                                                                                    Transfer
+                                                                                                </span>
+                                                                                            </p>
+
+                                                                                            <p style="text-align: center;">
+                                                                                                Simmeringer Hauptstraße
+                                                                                                2-4, 1110 Wien
+
+                                                                                                <br>
+                                                                                                    ++43 (1) 236 56 87
+                                                                                                    <br/>
+                                                                                                    Fax: ++43 (1) 236 56
+                                                                                                    87 DW 9
+                                                                                                </br>
+                                                                                                <a href="https://www.wienertafel.at/index.php?id=388">
+                                                                                                    Datenschutz
+                                                                                                </a>
+                                                                                                |
+                                                                                                <a href="https://www.wienertafel.at/"
+                                                                                                   target="_blank">
+                                                                                                    www.wienertafel.at
+                                                                                                </a>
+                                                                                                <br>
+                                                                                                    © 2020 Wienertafel
+                                                                                                    <a style="color: grey;"
+                                                                                                       href="https://www.wienertafel.at/newsletter-abmelden"
+                                                                                                       target="_blank">
+                                                                                                        Newsletter
+                                                                                                        abmelden
+                                                                                                    </a>
+                                                                                                </br>
+                                                                                            </p>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>

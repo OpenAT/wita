@@ -143,6 +143,11 @@ div.checkout_steps_buttons {
 
 /* Payment Tabs */
 /* ------------ */
+#wsd_checkout_form .tab-acquirer-image img,
+#wsd_checkout_form .tab-acquirer-image img.img.img-responsive.media-object {
+    max-height: 1.4em;
+}
+
 #payment_method .nav > li > a {
     padding: 5px 5px;
 }
