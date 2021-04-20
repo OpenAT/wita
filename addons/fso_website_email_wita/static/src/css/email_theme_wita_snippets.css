@@ -445,3 +445,65 @@
 .snippet_block_text_image_right.wita_tiny_image.wita_sb_fg_background .flexibleContainerLeft {
     width: 450px;
 }
+
+/* Footer */
+.social-media-footer-icons .sm-icon-fb,
+.social-media-footer-icons .sm-icon-yt,
+.social-media-footer-icons .sm-icon-tw {
+    background-size: 60% auto;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    text-indent: -999px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 5px;
+}
+#combinedsnippetfootergrey .social-media-footer-icons .sm-icon-fb,
+#combinedsnippetfootergrey .social-media-footer-icons .sm-icon-yt,
+#combinedsnippetfootergrey .social-media-footer-icons .sm-icon-tw {
+    background-color: #e84406;
+}
+#combinedsnippetfooterorange .social-media-footer-icons .sm-icon-fb,
+#combinedsnippetfooterorange .social-media-footer-icons .sm-icon-yt,
+#combinedsnippetfooterorange .social-media-footer-icons .sm-icon-tw {
+    background-color: white;
+}
+#combinedsnippetfootergrey .flexibleContainerCell,
+#combinedsnippetfooterorange .flexibleContainerCell {
+    padding: 0 0;
+}
+#combinedsnippetfootergrey .flexibleContainer33.flexibleContainer33left p,
+#combinedsnippetfootergrey div.social-media-footer-icons
+#combinedsnippetfooterorange .flexibleContainer33.flexibleContainer33left p,
+#combinedsnippetfooterorange div.social-media-footer-icons {
+    padding-left: 20px;
+}
+#combinedsnippetfootergrey .flexibleContainer33.flexibleContainer33right p,
+#combinedsnippetfooterorange .flexibleContainer33.flexibleContainer33right p {
+    padding-right: 20px;
+}
+#footergrey_bottom .flexibleContainerCell,
+#footeroange_bottom .flexibleContainerCell {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#combinedsnippetfootergrey .flexibleContainer33.flexibleContainer33right p,
+#combinedsnippetfooterorange .flexibleContainer33.flexibleContainer33right p {
+    padding-right: 20px;
+}
+
+/*#combinedsnippetfootergrey .wita_sb_bg_grey .flexibleContainerCell {
+    !*background-image: url(/fso_website_email_wita/static/src/img/footer_bg_img_fromwebsite_grey.png);*!
+    background: url("/fso_website_email_wita/static/src/img/bubbles-links.png");
+	text-indent: -9999px;
+    !*position: absolute;*!
+    left: 0px;
+    background-repeat: no-repeat;
+    background-color: #666;
+}*/

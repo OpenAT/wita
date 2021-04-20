@@ -70,4 +70,8 @@
     min-height: inherit;
 }
 
+    #combinedsnippetfootergrey .flexibleContainer33.flexibleContainer33middle p,
+    #combinedsnippetfooterorange .flexibleContainer33.flexibleContainer33middle p {
+    padding-left: 20px;
+}
 }

@@ -444,6 +444,530 @@
                         </div>
                     </div>
                 </div>
+                <!-- FOOTER SNIPPET BLOCK NEU grau -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_wita/static/src/icons/wita_footer_icon_grey.png"/>
+                        <span class="oe_snippet_thumbnail_title">Footer Neu Grau</span>
+                    </div>
+                    <div id="combinedsnippetfootergrey" class="oe_snippet_body ckediting_disabled wita_bin">
+                        <div class="ckediting_disabled snippet_block snippet_block_text_threecol wita_sb_bg_grey"
+                             contenteditable="false">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <!--<img style="position:absolute; left:0; z-index: -1;" src="/fso_website_email_wita/static/src/img/bubbles-links.png"></img>-->
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33left">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center; background: url(/fso_website_email_wita/static/src/img/bubbles-links.png); padding-left:-20px; background-repeat: no-repeat; left: 0px;"
+                                                                                                            valign="top"
+                                                                                                            contenteditable="true">
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ea470d;">
+                                                                                                                    Wiener Tafel
+                                                                                                                    <br></br>
+                                                                                                                    Verein für sozialen Transfer
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;">
+                                                                                                                    Laxenburger
+                                                                                                                    Straße
+                                                                                                                    365/A6
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;">
+                                                                                                                    1230
+                                                                                                                    Wien
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;">
+                                                                                                                    +43
+                                                                                                                    (1)
+                                                                                                                    236
+                                                                                                                    56
+                                                                                                                    87
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;">
+                                                                                                                    Fax:
+                                                                                                                    +43
+                                                                                                                    (1)
+                                                                                                                    236
+                                                                                                                    56
+                                                                                                                    87
+                                                                                                                    DW 9
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <a data-cke-saved-href="https://www.wienertafel.at"
+                                                                                                                   href="https://www.wienertafel.at"
+                                                                                                                   target="_blank">
+                                                                                                                    <span style="color:#ea470d;">
+                                                                                                                        www.wienertafel.at
+                                                                                                                    </span>
+                                                                                                                </a>
+                                                                                                            </p>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33middle">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top"
+                                                                                                            contenteditable="true">
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;">
+                                                                                                                    Schade!
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;">
+                                                                                                                    Du
+                                                                                                                    möchtest
+                                                                                                                    zukünftig
+                                                                                                                    keine
+                                                                                                                    Newsletter
+                                                                                                                    mehr
+                                                                                                                    erhalten?
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;"></span>&#8203;<br></br>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small" style="text-align: center;">
+                                                                                                                <span style="color:#ffffff;padding: 5px 20px 5px 20px;border: 1px solid red;border-radius: 5px;">
+                                                                                                                    Abmelden
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            <table align="right" border="0" cellpadding="0" cellspacing="0" class="flexibleContainer33 flexibleContainer33right">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:right; background: url(/fso_website_email_wita/static/src/img/bubbles-rechts.png); background-position: right; background-repeat: no-repeat; right: 0px;"
+                                                                                                            valign="top"
+                                                                                                            contenteditable="true">
+                                                                                                            <p class="wita_small" style="text-align: left;">
+                                                                                                                <span style="color:#ea470d;">
+                                                                                                                    Folge
+                                                                                                                    uns
+                                                                                                                    online
+                                                                                                                </span>
+                                                                                                                <br></br>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small" style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;">
+                                                                                                                    Bleibe
+                                                                                                                    immer
+                                                                                                                    Informiert!
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <br/>
+                                                                                                            </p>
+                                                                                                            <div class="social-media-footer-icons" style="text-align: left;">
+                                                                                                                <img class="sm-icon-fb" src="https://neu.wienertafel.at/wp-content/uploads/2019/10/social-icon-fb.svg"></img>
+
+                                                                                                                <img class="sm-icon-yt" src="https://neu.wienertafel.at/wp-content/uploads/2019/10/social-icon-yt.svg"></img>
+
+                                                                                                                <img class="sm-icon-tw" src="https://neu.wienertafel.at/wp-content/uploads/2019/10/social-icon-fb.svg"></img>
+                                                                                                                <br></br><br></br><br></br><br></br><br></br>
+                                                                                                            </div>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="footergrey_bottom" class="ckediting_disabled snippet_block snippet_block_text_intro wita_sb_bg_grey" contenteditable="false">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled"
+                                                                                            contenteditable="true">
+                                                                                            <p class="wita_tiny">
+                                                                                                <span style="color:#ffffff; padding-right:150px">
+                                                                                                    @Wiener Tafel 2021
+                                                                                                </span>
+                                                                                                <span style="color:#ffffff; padding-right:20px">
+                                                                                                    Datenschutz
+                                                                                                </span>
+                                                                                                <span style="color:#ffffff; padding-right:20px">
+                                                                                                    Spenden
+                                                                                                </span>
+                                                                                                <span style="color:#ffffff; padding-right:20px">
+                                                                                                    Presse
+                                                                                                </span>
+                                                                                                <span style="color:#ffffff; padding-right:20px">
+                                                                                                    Hintergründe
+                                                                                                </span>
+                                                                                                <span style="color:#ffffff; padding-right:20px">
+                                                                                                    Impressum
+                                                                                                </span>
+                                                                                            </p>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+            </div>
+                <!-- FOOTER SNIPPET BLOCK NEU Orange -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_wita/static/src/icons/wita_footer_icon_orange.png"/>
+                        <span class="oe_snippet_thumbnail_title">Footer Neu Orange</span>
+                    </div>
+                    <div id="combinedsnippetfootergrey" class="oe_snippet_body ckediting_disabled wita_bin">
+                        <div class="ckediting_disabled snippet_block snippet_block_text_threecol wita_sb_bg_red"
+                             contenteditable="false">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <!--<img style="position:absolute; left:0; z-index: -1;" src="/fso_website_email_wita/static/src/img/bubbles-links.png"></img>-->
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33left">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center; background: url(/fso_website_email_wita/static/src/img/bubbles-links.png); padding-left:-20px; background-repeat: no-repeat; left: 0px;"
+                                                                                                            valign="top"
+                                                                                                            contenteditable="true">
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ef7c00;">
+                                                                                                                    Wiener Tafel
+                                                                                                                    <br></br>
+                                                                                                                    Verein für sozialen Transfer
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;">
+                                                                                                                    Laxenburger
+                                                                                                                    Straße
+                                                                                                                    365/A6
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;">
+                                                                                                                    1230
+                                                                                                                    Wien
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;">
+                                                                                                                    +43
+                                                                                                                    (1)
+                                                                                                                    236
+                                                                                                                    56
+                                                                                                                    87
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;">
+                                                                                                                    Fax:
+                                                                                                                    +43
+                                                                                                                    (1)
+                                                                                                                    236
+                                                                                                                    56
+                                                                                                                    87
+                                                                                                                    DW 9
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <a style="text-decoration:none;" data-cke-saved-href="https://www.wienertafel.at"
+                                                                                                                   href="https://www.wienertafel.at"
+                                                                                                                   target="_blank">
+                                                                                                                    <span style="color:#ef7c00;">
+                                                                                                                        www.wienertafel.at
+                                                                                                                    </span>
+                                                                                                                </a>
+                                                                                                            </p>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33middle">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top"
+                                                                                                            contenteditable="true">
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ea470d;">
+                                                                                                                    Schade!
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;">
+                                                                                                                    Du
+                                                                                                                    möchtest
+                                                                                                                    zukünftig
+                                                                                                                    keine
+                                                                                                                    Newsletter
+                                                                                                                    mehr
+                                                                                                                    erhalten?
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;"></span>&#8203;<br></br>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small" style="text-align: center;">
+                                                                                                                <span style="color:#ffffff;padding: 5px 20px 5px 20px;border: 1px solid #ea470d;border-radius: 5px;">
+                                                                                                                    Abmelden
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            <table align="right" border="0" cellpadding="0" cellspacing="0" class="flexibleContainer33 flexibleContainer33right">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:right; background: url(/fso_website_email_wita/static/src/img/bubbles-rechts.png); background-position: right; background-repeat: no-repeat; right: 0px;"
+                                                                                                            valign="top"
+                                                                                                            contenteditable="true">
+                                                                                                            <p class="wita_small" style="text-align: left;">
+                                                                                                                <span style="color:#ef7c00;">
+                                                                                                                    Folge
+                                                                                                                    uns
+                                                                                                                    online
+                                                                                                                </span>
+                                                                                                                <br></br>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small" style="text-align: left;">
+                                                                                                                <span style="color:#ffffff;">
+                                                                                                                    Bleibe
+                                                                                                                    immer
+                                                                                                                    Informiert!
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small"
+                                                                                                               style="text-align: left;">
+                                                                                                                <br/>
+                                                                                                            </p>
+                                                                                                            <div class="social-media-footer-icons" style="text-align: left;">
+                                                                                                                <img class="sm-icon-fb" src="https://neu.wienertafel.at/wp-content/uploads/2019/10/social-icon-fb.svg"></img>
+
+                                                                                                                <img class="sm-icon-yt" src="https://neu.wienertafel.at/wp-content/uploads/2019/10/social-icon-yt.svg"></img>
+
+                                                                                                                <img class="sm-icon-tw" src="https://neu.wienertafel.at/wp-content/uploads/2019/10/social-icon-fb.svg"></img>
+                                                                                                                <br></br><br></br><br></br><br></br><br></br>
+                                                                                                            </div>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="footerorange_bottom" class="ckediting_disabled snippet_block snippet_block_text_intro wita_sb_bg_red" contenteditable="false">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled"
+                                                                                            contenteditable="true">
+                                                                                            <p class="wita_tiny">
+                                                                                                <span style="color:#ffffff; padding-right:150px">
+                                                                                                    @Wiener Tafel 2021
+                                                                                                </span>
+                                                                                                <span style="color:#ffffff; padding-right:20px">
+                                                                                                    Datenschutz
+                                                                                                </span>
+                                                                                                <span style="color:#ffffff; padding-right:20px">
+                                                                                                    Spenden
+                                                                                                </span>
+                                                                                                <span style="color:#ffffff; padding-right:20px">
+                                                                                                    Presse
+                                                                                                </span>
+                                                                                                <span style="color:#ffffff; padding-right:20px">
+                                                                                                    Hintergründe
+                                                                                                </span>
+                                                                                                <span style="color:#ffffff; padding-right:20px">
+                                                                                                    Impressum
+                                                                                                </span>
+                                                                                            </p>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+            </div>
             </div>
         </xpath>
     </template>
