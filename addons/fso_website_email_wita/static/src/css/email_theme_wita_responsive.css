@@ -71,7 +71,9 @@
 }
 
     #combinedsnippetfootergrey .flexibleContainer33.flexibleContainer33middle p,
-    #combinedsnippetfooterorange .flexibleContainer33.flexibleContainer33middle p {
+    #combinedsnippetfooterorange .flexibleContainer33.flexibleContainer33middle p,
+    #combinedsnippetfootergrey .flexibleContainer33.flexibleContainer33right p,
+    #combinedsnippetfooterorange .flexibleContainer33.flexibleContainer33right p {
     padding-left: 20px;
 }
 }

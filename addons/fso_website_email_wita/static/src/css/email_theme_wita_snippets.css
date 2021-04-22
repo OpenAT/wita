@@ -498,6 +498,12 @@
     padding-right: 20px;
 }
 
+#combinedheadersnippet_external .flexibleContainer33.flexibleContainer33right img,
+#combinedheadersnippet_internal .flexibleContainer33.flexibleContainer33right img {
+    width: 120px;
+    float: right;
+}
+
 /*#combinedsnippetfootergrey .wita_sb_bg_grey .flexibleContainerCell {
     !*background-image: url(/fso_website_email_wita/static/src/img/footer_bg_img_fromwebsite_grey.png);*!
     background: url("/fso_website_email_wita/static/src/img/bubbles-links.png");

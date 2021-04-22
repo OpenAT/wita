@@ -152,6 +152,308 @@
                     </div>
                     </div>
                 </div>
+
+                <!-- HEADER SNIPPET BLOCK External -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_wita/static/src/icons/wita_header_icon_external.png"/>
+                        <span class="oe_snippet_thumbnail_title">Header Snippet External</span>
+                    </div>
+                    <div id="combinedheadersnippetWebVersionExternal" class="oe_snippet_body ckediting_disabled wita_bin">
+                     <div class="snippet_block ckediting_enabled snippet_block_text_intro wita_sb_bg_background">
+                        <table class="centeringTable" cellpadding="0" cellspacing="0">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="flexibleContainerCell" align="center" valign="top">
+                                                        <table class="nestedContainer" border="0" cellpadding="0"
+                                                               cellspacing="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="nestedContainerCell" align="center"
+                                                                        valign="top">
+                                                                        <table class="contentTable" border="0"
+                                                                               cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_enabled"
+                                                                                        contenteditable="true">
+                                                                                        <p class="wita_tiny"
+                                                                                           style="text-align: center;">
+                                                                                            <a href="%open_browser%" data-cke-saved-href="%open_browser%" target="_blank" style="text-align: center; color: gray; font-weight: 700; font-size: 12px;">Zur Webversion</a>
+                                                                                        </p>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                        <div id="combinedheadersnippet_external"
+                             class="ckediting_disabled snippet_block_text_threecol wita_sb_bg_grey">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33left">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage wita_snippet_block_img_padding_top_20"
+                                                                                                                 src="/fso_website_email_wita/static/src/img/WT_Logo_Extern.png"
+                                                                                                                 style="text-align:center;"/>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33middle">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage wita_snippet_block_img_padding_top_20"
+                                                                                                                 src="/fso_website_email_wita/static/src/img/WT_Newsletter_Header_VersorgenStattEntsorgen.png"
+                                                                                                                 style="text-align:center;"/>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33right">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage wita_snippet_block_img_padding_top_50"
+                                                                                                                 src="/fso_website_email_wita/static/src/img/WT_Newsletter_Header_ExternerNewsletter.png"
+                                                                                                                 style="text-align:center;"/>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- HEADER SNIPPET BLOCK Internal -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_wita/static/src/icons/wita_header_icon_internal.png"/>
+                        <span class="oe_snippet_thumbnail_title">Header Snippet Internal</span>
+                    </div>
+                    <div id="combinedheadersnippetWebVersionInternal" class="oe_snippet_body ckediting_disabled wita_bin">
+                     <div class="snippet_block ckediting_enabled snippet_block_text_intro wita_sb_bg_background">
+                        <table class="centeringTable" cellpadding="0" cellspacing="0">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="flexibleContainerCell" align="center" valign="top">
+                                                        <table class="nestedContainer" border="0" cellpadding="0"
+                                                               cellspacing="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="nestedContainerCell" align="center"
+                                                                        valign="top">
+                                                                        <table class="contentTable" border="0"
+                                                                               cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_enabled"
+                                                                                        contenteditable="true">
+                                                                                        <p class="wita_tiny"
+                                                                                           style="text-align: center;">
+                                                                                            <a href="%open_browser%" data-cke-saved-href="%open_browser%" target="_blank" style="text-align: center; color: gray; font-weight: 700; font-size: 12px;">Zur Webversion</a>
+                                                                                        </p>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                        <div id="combinedheadersnippet_external"
+                             class="ckediting_disabled snippet_block_text_threecol wita_sb_bg_red">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33left">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage wita_snippet_block_img_padding_top_20"
+                                                                                                                 src="/fso_website_email_wita/static/src/img/WT_Logo_Intern.png"
+                                                                                                                 style="text-align:center;"/>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33middle">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage wita_snippet_block_img_padding_top_20"
+                                                                                                                 src="/fso_website_email_wita/static/src/img/WT_Newsletter_Header_VersorgenStattEntsorgen.png"
+                                                                                                                 style="text-align:center;"/>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33right">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage wita_snippet_block_img_padding_top_50"
+                                                                                                                 src="/fso_website_email_wita/static/src/img/WT_Newsletter_Header_InternerNewsletter.png"
+                                                                                                                 style="text-align:center;"/>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- FOOTER SNIPPET BLOCK -->
                 <!-- =============== -->
                 <div>
@@ -483,11 +785,27 @@
                                                                                                    class="flexibleContainer33 flexibleContainer33left">
                                                                                                 <tbody>
                                                                                                     <tr>
-                                                                                                        <td align="center"
+                                                                                                        <td background="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-links.png"
+                                                                                                            align="center"
                                                                                                             class="textContent ckediting_enabled"
-                                                                                                            style="text-align:center; background: url(/fso_website_email_wita/static/src/img/bubbles-links.png); padding-left:-20px; background-repeat: no-repeat; left: 0px;"
+                                                                                                            style="text-align:center; padding-left:-20px; left: 0px; background-repeat: no-repeat;"
                                                                                                             valign="top"
                                                                                                             contenteditable="true">
+                                                                                                            <t t-set="olconditionals1">
+                                                                                                                 <![CDATA[
+                                                                                                                      <!--[if gte mso 9]>
+                                                                                                                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; left:0; width:88px; height:156px;" src="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-links.png">
+                                                                                                                        <v:fill opacity="0%"></v:fill>
+                                                                                                                      </v:image>
+                                                                                                                      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; width:200px;height:220px;">
+                                                                                                                        <v:fill opacity="0%"></v:fill>
+                                                                                                                        <v:textbox inset="20px,0,0,0">
+                                                                                                                        <div>
+                                                                                                                      <![endif]-->
+                                                                                                                  ]]>
+                                                                                                            </t>
+                                                                                                            <t t-raw="olconditionals1">
+                                                                                                            </t>
                                                                                                             <p class="wita_small"
                                                                                                                style="text-align: left;">
                                                                                                                 <span style="color:#ea470d;">
@@ -543,6 +861,17 @@
                                                                                                                     </span>
                                                                                                                 </a>
                                                                                                             </p>
+                                                                                                            <t t-set="olconditionals2">
+                                                                                                                 <![CDATA[
+                                                                                                                      <!--[if gte mso 9]>
+                                                                                                                      </div>
+                                                                                                                        </v:textbox>
+                                                                                                                      </v:rect>
+                                                                                                                      <![endif]-->
+                                                                                                                ]]>
+                                                                                                            </t>
+                                                                                                            <t t-raw="olconditionals2">
+                                                                                                            </t>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
@@ -593,11 +922,27 @@
                                                                                             <table align="right" border="0" cellpadding="0" cellspacing="0" class="flexibleContainer33 flexibleContainer33right">
                                                                                                 <tbody>
                                                                                                     <tr>
-                                                                                                        <td align="center"
+                                                                                                        <td background="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-rechts.png"
+                                                                                                            align="center"
                                                                                                             class="textContent ckediting_enabled"
-                                                                                                            style="text-align:right; background: url(/fso_website_email_wita/static/src/img/bubbles-rechts.png); background-position: right; background-repeat: no-repeat; right: 0px;"
+                                                                                                            style="text-align:right; right: 0px; background-repeat: no-repeat; background-position: right;"
                                                                                                             valign="top"
                                                                                                             contenteditable="true">
+                                                                                                            <t t-set="olconditionals3">
+                                                                                                                 <![CDATA[
+                                                                                                                      <!--[if gte mso 9]>
+                                                                                                                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="display: inline-block; position: absolute; top: 0; right: 0; width:60px; height:209px;" src="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-rechts.png">
+                                                                                                                         <v:fill opacity="0%"></v:fill>
+                                                                                                                      </v:image>
+                                                                                                                      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; width:200px;height:220px;">
+                                                                                                                        <v:fill opacity="0%"></v:fill>
+                                                                                                                        <v:textbox inset="0,0,20px,0">
+                                                                                                                        <div>
+                                                                                                                      <![endif]-->
+                                                                                                                  ]]>
+                                                                                                            </t>
+                                                                                                            <t t-raw="olconditionals3">
+                                                                                                            </t>
                                                                                                             <p class="wita_small" style="text-align: left;">
                                                                                                                 <span style="color:#ea470d;">
                                                                                                                     Folge
@@ -618,13 +963,24 @@
                                                                                                                 <br/>
                                                                                                             </p>
                                                                                                             <div class="social-media-footer-icons" style="text-align: left;">
-                                                                                                                <img class="sm-icon-fb" src="https://neu.wienertafel.at/wp-content/uploads/2019/10/social-icon-fb.svg"></img>
+                                                                                                                <img class="sm-icon-fb" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Extern_SocialMedia_FB.png"></img>
 
-                                                                                                                <img class="sm-icon-yt" src="https://neu.wienertafel.at/wp-content/uploads/2019/10/social-icon-yt.svg"></img>
+                                                                                                                <img class="sm-icon-yt" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Extern_SocialMedia_YT.png"></img>
 
-                                                                                                                <img class="sm-icon-tw" src="https://neu.wienertafel.at/wp-content/uploads/2019/10/social-icon-fb.svg"></img>
+                                                                                                                <img class="sm-icon-tw" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Extern_SocialMedia_Insta.png"></img>
                                                                                                                 <br></br><br></br><br></br><br></br><br></br>
                                                                                                             </div>
+                                                                                                            <t t-set="olconditionals4">
+                                                                                                                 <![CDATA[
+                                                                                                                      <!--[if gte mso 9]>
+                                                                                                                      </div>
+                                                                                                                        </v:textbox>
+                                                                                                                      </v:rect>
+                                                                                                                      <![endif]-->
+                                                                                                                ]]>
+                                                                                                            </t>
+                                                                                                            <t t-raw="olconditionals4">
+                                                                                                            </t>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
@@ -745,11 +1101,27 @@
                                                                                                    class="flexibleContainer33 flexibleContainer33left">
                                                                                                 <tbody>
                                                                                                     <tr>
-                                                                                                        <td align="center"
+                                                                                                        <td background="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-links.png"
+                                                                                                            align="center"
                                                                                                             class="textContent ckediting_enabled"
-                                                                                                            style="text-align:center; background: url(/fso_website_email_wita/static/src/img/bubbles-links.png); padding-left:-20px; background-repeat: no-repeat; left: 0px;"
+                                                                                                            style="text-align:center; padding-left:-20px; left: 0px; background-repeat: no-repeat;"
                                                                                                             valign="top"
                                                                                                             contenteditable="true">
+                                                                                                            <t t-set="olconditionals1">
+                                                                                                                 <![CDATA[
+                                                                                                                      <!--[if gte mso 9]>
+                                                                                                                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; left:0; width:88px; height:156px;" src="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-links.png">
+                                                                                                                        <v:fill opacity="0%"></v:fill>
+                                                                                                                      </v:image>
+                                                                                                                      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; width:200px;height:220px;">
+                                                                                                                        <v:fill opacity="0%"></v:fill>
+                                                                                                                        <v:textbox inset="20px,0,0,0">
+                                                                                                                        <div>
+                                                                                                                      <![endif]-->
+                                                                                                                  ]]>
+                                                                                                            </t>
+                                                                                                            <t t-raw="olconditionals1">
+                                                                                                            </t>
                                                                                                             <p class="wita_small"
                                                                                                                style="text-align: left;">
                                                                                                                 <span style="color:#ef7c00;">
@@ -805,6 +1177,17 @@
                                                                                                                     </span>
                                                                                                                 </a>
                                                                                                             </p>
+                                                                                                            <t t-set="olconditionals2">
+                                                                                                                 <![CDATA[
+                                                                                                                      <!--[if gte mso 9]>
+                                                                                                                      </div>
+                                                                                                                        </v:textbox>
+                                                                                                                      </v:rect>
+                                                                                                                      <![endif]-->
+                                                                                                                ]]>
+                                                                                                            </t>
+                                                                                                            <t t-raw="olconditionals2">
+                                                                                                            </t>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
@@ -855,11 +1238,27 @@
                                                                                             <table align="right" border="0" cellpadding="0" cellspacing="0" class="flexibleContainer33 flexibleContainer33right">
                                                                                                 <tbody>
                                                                                                     <tr>
-                                                                                                        <td align="center"
+                                                                                                        <td background="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-rechts.png"
+                                                                                                            align="center"
                                                                                                             class="textContent ckediting_enabled"
-                                                                                                            style="text-align:right; background: url(/fso_website_email_wita/static/src/img/bubbles-rechts.png); background-position: right; background-repeat: no-repeat; right: 0px;"
+                                                                                                            style="text-align: right; right: 0px; background-repeat: no-repeat; background-position: right;"
                                                                                                             valign="top"
                                                                                                             contenteditable="true">
+                                                                                                            <t t-set="olconditionals3">
+                                                                                                                 <![CDATA[
+                                                                                                                      <!--[if gte mso 9]>
+                                                                                                                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="display: inline-block; position: absolute; top: 0; right: 0; width:60px; height:209px;" src="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-rechts.png">
+                                                                                                                         <v:fill opacity="0%"></v:fill>
+                                                                                                                      </v:image>
+                                                                                                                      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; width:200px;height:220px;">
+                                                                                                                        <v:fill opacity="0%"></v:fill>
+                                                                                                                        <v:textbox inset="0,0,20px,0">
+                                                                                                                        <div>
+                                                                                                                      <![endif]-->
+                                                                                                                  ]]>
+                                                                                                            </t>
+                                                                                                            <t t-raw="olconditionals3">
+                                                                                                            </t>
                                                                                                             <p class="wita_small" style="text-align: left;">
                                                                                                                 <span style="color:#ef7c00;">
                                                                                                                     Folge
@@ -880,13 +1279,24 @@
                                                                                                                 <br/>
                                                                                                             </p>
                                                                                                             <div class="social-media-footer-icons" style="text-align: left;">
-                                                                                                                <img class="sm-icon-fb" src="https://neu.wienertafel.at/wp-content/uploads/2019/10/social-icon-fb.svg"></img>
+                                                                                                                <img class="sm-icon-fb" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Intern_SocialMedia_FB.png"></img>
 
-                                                                                                                <img class="sm-icon-yt" src="https://neu.wienertafel.at/wp-content/uploads/2019/10/social-icon-yt.svg"></img>
+                                                                                                                <img class="sm-icon-yt" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Intern_SocialMedia_YT.png"></img>
 
-                                                                                                                <img class="sm-icon-tw" src="https://neu.wienertafel.at/wp-content/uploads/2019/10/social-icon-fb.svg"></img>
+                                                                                                                <img class="sm-icon-tw" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Intern_SocialMedia_Insta.png"></img>
                                                                                                                 <br></br><br></br><br></br><br></br><br></br>
                                                                                                             </div>
+                                                                                                            <t t-set="olconditionals2">
+                                                                                                                 <![CDATA[
+                                                                                                                      <!--[if gte mso 9]>
+                                                                                                                      </div>
+                                                                                                                        </v:textbox>
+                                                                                                                      </v:rect>
+                                                                                                                      <![endif]-->
+                                                                                                                ]]>
+                                                                                                            </t>
+                                                                                                            <t t-raw="olconditionals2">
+                                                                                                            </t>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
