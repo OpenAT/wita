@@ -931,7 +931,7 @@
                                                                                                             <t t-set="olconditionals3">
                                                                                                                  <![CDATA[
                                                                                                                       <!--[if gte mso 9]>
-                                                                                                                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="display: inline-block; position: absolute; top: 0; right: 0; width:60px; height:209px;" src="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-rechts.png">
+                                                                                                                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="behavior: url(#default#VML); display: inline-block; position: absolute; top: 0; left: 140; width:60px; height:209px;" src="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-rechts.png">
                                                                                                                          <v:fill opacity="0%"></v:fill>
                                                                                                                       </v:image>
                                                                                                                       <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; width:200px;height:220px;">
@@ -1023,7 +1023,7 @@
                                                                                     <tr>
                                                                                         <td class="textContent ckediting_enabled"
                                                                                             contenteditable="true">
-                                                                                            <p class="wita_tiny">
+                                                                                            <p class="wita_tiny wita_copyright_info">
                                                                                                 <span style="color:#ffffff; padding-right:150px">
                                                                                                     @Wiener Tafel 2021
                                                                                                 </span>
@@ -1279,7 +1279,12 @@
                                                                                                                 <br/>
                                                                                                             </p>
                                                                                                             <div class="social-media-footer-icons" style="text-align: left;">
-                                                                                                                <img class="sm-icon-fb" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Intern_SocialMedia_FB.png"></img>
+                                                                                                                <img class="sm-icon-fb" src="https://wita.datadialog.net/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Intern_SocialMedia_FB.png"
+                                                                                                                     width="32"
+                                                                                                                     style="width:32px; border:0 none; -ms-interpolation-mode: bicubic;"
+                                                                                                                     align="left"
+                                                                                                                     vspace="10"
+                                                                                                                     hspace="10"></img>
 
                                                                                                                 <img class="sm-icon-yt" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Intern_SocialMedia_YT.png"></img>
 

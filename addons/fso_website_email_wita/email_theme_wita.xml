@@ -73,6 +73,94 @@
             <!-- ================= -->
 
             <head>
+                <link data-premailer="ignore" rel="preconnect" href="https://fonts.gstatic.com"/>
+                <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
+                <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
+                <style type="text/css" data-premailer="ignore">
+                     <![CDATA[
+                         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap');
+                         @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&amp;display=swap');
+                    ]]>
+               </style>
+               <t t-set="olconditionals">
+                <![CDATA[
+                    <!--[if mso 14]>
+                        <style type="text/css">
+                            h1, h2, h3, h4, h5, h6,
+                            .headerCell, .footerCell,
+                            .textContent, .textContentLast,
+                            .buttonContent,
+                            .emailCalendarDay, .emailCalendarMonth {
+                                font-family: 'Source Serif Pro', Arial, sans-serif !important;
+                                mso-line-height-rule: exactly;
+                            }
+                        </style>
+                    <![endif]-->
+                    <!--[if mso 16]>
+                        <style type="text/css">
+                            h1, h2, h3, h4, h5, h6,
+                            .headerCell, .footerCell,
+                            .textContent, .textContentLast,
+                            .buttonContent,
+                            .emailCalendarDay, .emailCalendarMonth {
+                                font-family: 'Source Serif Pro', Arial, sans-serif !important;
+                                mso-line-height-rule: exactly;
+                            }
+                        </style>
+                    <![endif]-->
+
+                    <!--[if mso]>
+                        <style type="text/css">
+                                /* Stop Outlook resizing small text. */
+                                * {
+                                     -ms-text-size-adjust: 100%;
+                                }
+                        </style>
+                        <style type="text/css">
+                                /* Stop Outlook from adding extra spacing to tables. */
+                                table,
+                                td {
+                                    mso-table-lspace: 0pt;
+                                    mso-table-rspace: 0pt;
+                                }
+                        </style>
+                        <style type="text/css">
+                                /* Use a better rendering method when resizing images in Outlook IE. */
+                                img {
+                                     -ms-interpolation-mode:bicubic;
+                                }
+                        </style>
+                        <style type="text/css">
+                                /* Prevent Windows 10 Mail from underlining links. Styles for underlined links should be inline. */
+                                a {
+                                text-decoration: none;
+                                }
+                        </style>
+                        <style type="text/css">
+                            * {
+                                font-family: 'Open-Sans', Arial, sans-serif !important;
+                            }
+                        </style>
+                        <style type="text/css">
+                          body,
+                          p,
+                          a,
+                          #emailBody ul li,
+                          #emailBody ol li {
+                                font-family: 'Open-Sans', Arial, sans-serif !important;
+                            }
+                        </style>
+                    <![endif]-->
+                    <!--[if mso]>
+                        <style>
+                        * {-webkit-text-size-adjust: none}
+                        </style>
+                    <![endif]-->
+                ]]>
+                </t>
+                <t t-raw="olconditionals">
+
+                </t>
                 <!-- COMMON CSS-ASSETS AND <head> TAGS -->
                 <t t-call="fso_website_email.theme_head_common"/>
                 

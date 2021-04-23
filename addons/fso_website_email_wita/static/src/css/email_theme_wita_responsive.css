@@ -74,6 +74,18 @@
     #combinedsnippetfooterorange .flexibleContainer33.flexibleContainer33middle p,
     #combinedsnippetfootergrey .flexibleContainer33.flexibleContainer33right p,
     #combinedsnippetfooterorange .flexibleContainer33.flexibleContainer33right p {
-    padding-left: 20px;
+        padding-left: 20px;
 }
+    #combinedsnippetfootergrey div.social-media-footer-icons,
+    #combinedsnippetfooterorange div.social-media-footer-icons {
+        padding-left: 20px;
+}
+    #footerorange_bottom .wita_copyright_info,
+    #footergrey_bottom .wita_copyright_info {
+        text-align: center;
+    }
+    #footerorange_bottom .wita_copyright_info > span:nth-child(1),
+    #footergrey_bottom .wita_copyright_info > span:nth-child(1) {
+        padding-right: 30px;
+    }
 }
