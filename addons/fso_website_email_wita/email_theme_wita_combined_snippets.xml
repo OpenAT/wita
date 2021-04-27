@@ -766,7 +766,7 @@
                                                 <tbody>
                                                     <tr>
                                                         <td align="center" class="flexibleContainerCell" valign="top">
-                                                            <!--<img style="position:absolute; left:0; z-index: -1;" src="/fso_website_email_wita/static/src/img/bubbles-links.png"></img>-->
+                                                            <!--<img style="position:absolute; left:0; z-index: -1;" src="/fso_website_email_wita/static/src/img/WT_Newsletter_Footer_Bubbles_Extern_Links_01.png"></img>-->
                                                             <table border="0" cellpadding="0" cellspacing="0"
                                                                    class="nestedContainer">
                                                                 <tbody>
@@ -785,7 +785,7 @@
                                                                                                    class="flexibleContainer33 flexibleContainer33left">
                                                                                                 <tbody>
                                                                                                     <tr>
-                                                                                                        <td background="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-links.png"
+                                                                                                        <td background="https://wita.datadialog.net/fso_website_email_wita/static/src/img/WT_Newsletter_Footer_Bubbles_Extern_Links_01.png"
                                                                                                             align="center"
                                                                                                             class="textContent ckediting_enabled"
                                                                                                             style="text-align:center; padding-left:-20px; left: 0px; background-repeat: no-repeat;"
@@ -794,7 +794,7 @@
                                                                                                             <t t-set="olconditionals1">
                                                                                                                  <![CDATA[
                                                                                                                       <!--[if gte mso 9]>
-                                                                                                                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; left:0; width:88px; height:156px;" src="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-links.png">
+                                                                                                                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; left:0; width:60px; height:209px;" src="https://wita.datadialog.net/fso_website_email_wita/static/src/img/WT_Newsletter_Footer_Bubbles_Extern_Links_01.png">
                                                                                                                         <v:fill opacity="0%"></v:fill>
                                                                                                                       </v:image>
                                                                                                                       <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; width:200px;height:220px;">
@@ -911,9 +911,11 @@
                                                                                                                 <span style="color:#ffffff;"></span>&#8203;<br></br>
                                                                                                             </p>
                                                                                                             <p class="wita_small" style="text-align: center;">
-                                                                                                                <span style="color:#ffffff;padding: 5px 20px 5px 20px;border: 1px solid red;border-radius: 5px;">
-                                                                                                                    Abmelden
-                                                                                                                </span>
+                                                                                                                <a style="text-decoration: none;" href="https://wienertafel.at/index.php?id=612" target="_blank">
+                                                                                                                    <span style="color:#ffffff;padding: 5px 20px 5px 20px;border: 1px solid red;border-radius: 5px;">
+                                                                                                                        Abmelden
+                                                                                                                    </span>
+                                                                                                                </a>
                                                                                                             </p>
                                                                                                         </td>
                                                                                                     </tr>
@@ -922,7 +924,7 @@
                                                                                             <table align="right" border="0" cellpadding="0" cellspacing="0" class="flexibleContainer33 flexibleContainer33right">
                                                                                                 <tbody>
                                                                                                     <tr>
-                                                                                                        <td background="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-rechts.png"
+                                                                                                        <td background="https://wita.datadialog.net/fso_website_email_wita/static/src/img/WT_Newsletter_Footer_Bubbles_Rechts_02.png"
                                                                                                             align="center"
                                                                                                             class="textContent ckediting_enabled"
                                                                                                             style="text-align:right; right: 0px; background-repeat: no-repeat; background-position: right;"
@@ -931,7 +933,7 @@
                                                                                                             <t t-set="olconditionals3">
                                                                                                                  <![CDATA[
                                                                                                                       <!--[if gte mso 9]>
-                                                                                                                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="behavior: url(#default#VML); display: inline-block; position: absolute; top: 0; left: 140; width:60px; height:209px;" src="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-rechts.png">
+                                                                                                                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="behavior: url(#default#VML); display: inline-block; position: absolute; top: 0; left: 140; width:60px; height:209px;" src="https://wita.datadialog.net/fso_website_email_wita/static/src/img/WT_Newsletter_Footer_Bubbles_Rechts_02.png">
                                                                                                                          <v:fill opacity="0%"></v:fill>
                                                                                                                       </v:image>
                                                                                                                       <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; width:200px;height:220px;">
@@ -963,11 +965,15 @@
                                                                                                                 <br/>
                                                                                                             </p>
                                                                                                             <div class="social-media-footer-icons" style="text-align: left;">
-                                                                                                                <img class="sm-icon-fb" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Extern_SocialMedia_FB.png"></img>
-
-                                                                                                                <img class="sm-icon-yt" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Extern_SocialMedia_YT.png"></img>
-
-                                                                                                                <img class="sm-icon-tw" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Extern_SocialMedia_Insta.png"></img>
+                                                                                                                <a href="https://www.facebook.com/Wiener-Tafel-204918214121/" target="_blank" style="text-decoration:none;">
+                                                                                                                    <img class="sm-icon-fb" width="32" style="width:32px; border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Extern_SocialMedia_FB.png"></img>
+                                                                                                                </a>
+                                                                                                                <a href="https://www.youtube.com/wienertafel" target="_blank" style="text-decoration:none;">
+                                                                                                                    <img class="sm-icon-yt" width="32" style="width:32px; border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Extern_SocialMedia_YT.png"></img>
+                                                                                                                </a>
+                                                                                                                <a href="https://www.instagram.com/wiener_tafel/" target="_blank" style="text-decoration:none;">
+                                                                                                                    <img class="sm-icon-tw" width="32" style="width:32px; border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Extern_SocialMedia_Insta.png"></img>
+                                                                                                                </a>
                                                                                                                 <br></br><br></br><br></br><br></br><br></br>
                                                                                                             </div>
                                                                                                             <t t-set="olconditionals4">
@@ -1024,24 +1030,36 @@
                                                                                         <td class="textContent ckediting_enabled"
                                                                                             contenteditable="true">
                                                                                             <p class="wita_tiny wita_copyright_info">
-                                                                                                <span style="color:#ffffff; padding-right:150px">
-                                                                                                    @Wiener Tafel 2021
-                                                                                                </span>
-                                                                                                <span style="color:#ffffff; padding-right:20px">
-                                                                                                    Datenschutz
-                                                                                                </span>
-                                                                                                <span style="color:#ffffff; padding-right:20px">
-                                                                                                    Spenden
-                                                                                                </span>
-                                                                                                <span style="color:#ffffff; padding-right:20px">
-                                                                                                    Presse
-                                                                                                </span>
-                                                                                                <span style="color:#ffffff; padding-right:20px">
-                                                                                                    Hintergründe
-                                                                                                </span>
-                                                                                                <span style="color:#ffffff; padding-right:20px">
-                                                                                                    Impressum
-                                                                                                </span>
+                                                                                                <a href="https://www.wienertafel.at" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                    <span style="color:#ffffff; padding-right:100px">
+                                                                                                        @Wiener Tafel 2021
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                                <a href="http://www.wienertafel.at/?id=388" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                    <span style="color:#ffffff; padding-right:20px">
+                                                                                                        Datenschutz
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                                <a href="https://neu.wienertafel.at/spenden/" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                    <span style="color:#ffffff; padding-right:20px">
+                                                                                                        Spenden
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                                <a href="https://neu.wienertafel.at/presse/" style="w border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                    <span style="color:#ffffff; padding-right:20px">
+                                                                                                        Presse
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                                <a href="https://neu.wienertafel.at/mission/" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                    <span style="color:#ffffff; padding-right:20px">
+                                                                                                        Hintergründe
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                                <a href="http://www.wienertafel.at/?id=388" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                    <span style="color:#ffffff; padding-right:20px">
+                                                                                                        Impressum
+                                                                                                    </span>
+                                                                                                </a>
                                                                                             </p>
                                                                                         </td>
                                                                                     </tr>
@@ -1082,7 +1100,7 @@
                                                 <tbody>
                                                     <tr>
                                                         <td align="center" class="flexibleContainerCell" valign="top">
-                                                            <!--<img style="position:absolute; left:0; z-index: -1;" src="/fso_website_email_wita/static/src/img/bubbles-links.png"></img>-->
+                                                            <!--<img style="position:absolute; left:0; z-index: -1;" src="/fso_website_email_wita/static/src/img/WT_Newsletter_Footer_Bubbles_Extern_Links_01.png"></img>-->
                                                             <table border="0" cellpadding="0" cellspacing="0"
                                                                    class="nestedContainer">
                                                                 <tbody>
@@ -1101,7 +1119,7 @@
                                                                                                    class="flexibleContainer33 flexibleContainer33left">
                                                                                                 <tbody>
                                                                                                     <tr>
-                                                                                                        <td background="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-links.png"
+                                                                                                        <td background="https://wita.datadialog.net/fso_website_email_wita/static/src/img/WT_Newsletter_Footer_Bubbles_Intern_Links_01.png"
                                                                                                             align="center"
                                                                                                             class="textContent ckediting_enabled"
                                                                                                             style="text-align:center; padding-left:-20px; left: 0px; background-repeat: no-repeat;"
@@ -1110,7 +1128,7 @@
                                                                                                             <t t-set="olconditionals1">
                                                                                                                  <![CDATA[
                                                                                                                       <!--[if gte mso 9]>
-                                                                                                                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; left:0; width:88px; height:156px;" src="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-links.png">
+                                                                                                                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; left:0; width:60px; height:209px;" src="https://wita.datadialog.net/fso_website_email_wita/static/src/img/WT_Newsletter_Footer_Bubbles_Intern_Links_01.png">
                                                                                                                         <v:fill opacity="0%"></v:fill>
                                                                                                                       </v:image>
                                                                                                                       <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; width:200px;height:220px;">
@@ -1227,9 +1245,11 @@
                                                                                                                 <span style="color:#ffffff;"></span>&#8203;<br></br>
                                                                                                             </p>
                                                                                                             <p class="wita_small" style="text-align: center;">
-                                                                                                                <span style="color:#ffffff;padding: 5px 20px 5px 20px;border: 1px solid #ea470d;border-radius: 5px;">
-                                                                                                                    Abmelden
-                                                                                                                </span>
+                                                                                                                <a style="text-decoration: none;" href="https://wienertafel.at/index.php?id=612" target="_blank">
+                                                                                                                    <span style="color:#ffffff;padding: 5px 20px 5px 20px;border: 1px solid #ea470d;border-radius: 5px;">
+                                                                                                                        Abmelden
+                                                                                                                    </span>
+                                                                                                                </a>
                                                                                                             </p>
                                                                                                         </td>
                                                                                                     </tr>
@@ -1238,7 +1258,7 @@
                                                                                             <table align="right" border="0" cellpadding="0" cellspacing="0" class="flexibleContainer33 flexibleContainer33right">
                                                                                                 <tbody>
                                                                                                     <tr>
-                                                                                                        <td background="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-rechts.png"
+                                                                                                        <td background="https://wita.datadialog.net/fso_website_email_wita/static/src/img/WT_Newsletter_Footer_Bubbles_Rechts_02.png"
                                                                                                             align="center"
                                                                                                             class="textContent ckediting_enabled"
                                                                                                             style="text-align: right; right: 0px; background-repeat: no-repeat; background-position: right;"
@@ -1247,7 +1267,7 @@
                                                                                                             <t t-set="olconditionals3">
                                                                                                                  <![CDATA[
                                                                                                                       <!--[if gte mso 9]>
-                                                                                                                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="display: inline-block; position: absolute; top: 0; right: 0; width:60px; height:209px;" src="https://wita.datadialog.net/fso_website_email_wita/static/src/img/bubbles-rechts.png">
+                                                                                                                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="display: inline-block; position: absolute; top: 0; right: 0; width:60px; height:209px;" src="https://wita.datadialog.net/fso_website_email_wita/static/src/img/WT_Newsletter_Footer_Bubbles_Rechts_02.png">
                                                                                                                          <v:fill opacity="0%"></v:fill>
                                                                                                                       </v:image>
                                                                                                                       <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="position:absolute; width:200px;height:220px;">
@@ -1279,16 +1299,15 @@
                                                                                                                 <br/>
                                                                                                             </p>
                                                                                                             <div class="social-media-footer-icons" style="text-align: left;">
-                                                                                                                <img class="sm-icon-fb" src="https://wita.datadialog.net/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Intern_SocialMedia_FB.png"
-                                                                                                                     width="32"
-                                                                                                                     style="width:32px; border:0 none; -ms-interpolation-mode: bicubic;"
-                                                                                                                     align="left"
-                                                                                                                     vspace="10"
-                                                                                                                     hspace="10"></img>
-
-                                                                                                                <img class="sm-icon-yt" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Intern_SocialMedia_YT.png"></img>
-
-                                                                                                                <img class="sm-icon-tw" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Intern_SocialMedia_Insta.png"></img>
+                                                                                                                <a href="https://www.facebook.com/Wiener-Tafel-204918214121/" target="_blank" style="text-decoration:none;">
+                                                                                                                    <img class="sm-icon-fb" width="32" style="width:32px; border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Intern_SocialMedia_FB.png"></img>
+                                                                                                                </a>
+                                                                                                                <a href="https://www.youtube.com/wienertafel" target="_blank" style="text-decoration:none;">
+                                                                                                                    <img class="sm-icon-yt" width="32" style="width:32px; border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Intern_SocialMedia_YT.png"></img>
+                                                                                                                </a>
+                                                                                                                <a href="https://www.instagram.com/wiener_tafel/" target="_blank" style="text-decoration:none;">
+                                                                                                                    <img class="sm-icon-tw" width="32" style="width:32px; border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Intern_SocialMedia_Insta.png"></img>
+                                                                                                                </a>
                                                                                                                 <br></br><br></br><br></br><br></br><br></br>
                                                                                                             </div>
                                                                                                             <t t-set="olconditionals2">
@@ -1345,24 +1364,36 @@
                                                                                         <td class="textContent ckediting_enabled"
                                                                                             contenteditable="true">
                                                                                             <p class="wita_tiny">
-                                                                                                <span style="color:#ffffff; padding-right:150px">
-                                                                                                    @Wiener Tafel 2021
-                                                                                                </span>
-                                                                                                <span style="color:#ffffff; padding-right:20px">
-                                                                                                    Datenschutz
-                                                                                                </span>
-                                                                                                <span style="color:#ffffff; padding-right:20px">
-                                                                                                    Spenden
-                                                                                                </span>
-                                                                                                <span style="color:#ffffff; padding-right:20px">
-                                                                                                    Presse
-                                                                                                </span>
-                                                                                                <span style="color:#ffffff; padding-right:20px">
-                                                                                                    Hintergründe
-                                                                                                </span>
-                                                                                                <span style="color:#ffffff; padding-right:20px">
-                                                                                                    Impressum
-                                                                                                </span>
+                                                                                                <a href="https://www.wienertafel.at" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                    <span style="color:#ffffff; padding-right:100px">
+                                                                                                        @Wiener Tafel 2021
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                                <a href="http://www.wienertafel.at/?id=388" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                    <span style="color:#ffffff; padding-right:20px">
+                                                                                                        Datenschutz
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                                <a href="https://neu.wienertafel.at/spenden/" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                    <span style="color:#ffffff; padding-right:20px">
+                                                                                                        Spenden
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                                <a href="https://neu.wienertafel.at/presse/" style="w border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                    <span style="color:#ffffff; padding-right:20px">
+                                                                                                        Presse
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                                <a href="https://neu.wienertafel.at/mission/" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                    <span style="color:#ffffff; padding-right:20px">
+                                                                                                        Hintergründe
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                                <a href="http://www.wienertafel.at/?id=388" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                    <span style="color:#ffffff; padding-right:20px">
+                                                                                                        Impressum
+                                                                                                    </span>
+                                                                                                </a>
                                                                                             </p>
                                                                                         </td>
                                                                                     </tr>

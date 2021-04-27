@@ -138,12 +138,24 @@ blockquote {
     border-left: 5px solid #8c8c8c;
 }
 
-p.wita_small {
+#footergrey_bottom p.wita_small > a > span,
+#footerorange_bottom p.wita_small > a > span,
+#footergrey_bottom p.wita_small > a,
+#footerorange_bottom p.wita_small > a,
+p.wita_small > a,
+p.wita_small{
     font-size: 12px;
-}
+    font-family: 'Open-Sans', Arial, Helvetica, sans-serif;
 
+}
+#footergrey_bottom p.wita_small > a > span,
+#footerorange_bottom p.wita_small > a > span,
+#footergrey_bottom p.wita_small > a,
+#footerorange_bottom p.wita_small > a,
+p.wita_tiny > a,
 p.wita_tiny {
     font-size: 10px;
+    font-family: 'Open-Sans', Arial, Helvetica, sans-serif;
 }
 
 .wita_red {
