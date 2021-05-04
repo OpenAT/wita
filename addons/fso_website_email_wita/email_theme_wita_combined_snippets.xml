@@ -159,8 +159,8 @@
                     <!-- Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_wita/static/src/icons/wita_header_icon_external.png"/>
-                        <span class="oe_snippet_thumbnail_title">Header Snippet External</span>
+                             src="/fso_website_email_wita/static/src/icons/wita_header_icon_grey.png"/>
+                        <span class="oe_snippet_thumbnail_title">Header Snippet grey</span>
                     </div>
                     <div id="combinedheadersnippetWebVersionExternal" class="oe_snippet_body ckediting_disabled wita_bin">
                      <div class="snippet_block ckediting_enabled snippet_block_text_intro wita_sb_bg_background">
@@ -310,8 +310,8 @@
                     <!-- Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_wita/static/src/icons/wita_header_icon_internal.png"/>
-                        <span class="oe_snippet_thumbnail_title">Header Snippet Internal</span>
+                             src="/fso_website_email_wita/static/src/icons/wita_header_icon_orange.png"/>
+                        <span class="oe_snippet_thumbnail_title">Header Snippet Orange</span>
                     </div>
                     <div id="combinedheadersnippetWebVersionInternal" class="oe_snippet_body ckediting_disabled wita_bin">
                      <div class="snippet_block ckediting_enabled snippet_block_text_intro wita_sb_bg_background">
