@@ -49,6 +49,9 @@
 .snippet_block_text_threecol .flexibleContainer33 .flexibleImage {
     width: 190px;
 }
+#combinedsnippetfootergrey table.flexibleContainer33.flexibleContainer33right {
+    height: 209px;
+}
 
 /* .snippet_block_banner */
 .snippet_block_banner .flexibleImage,
@@ -475,6 +478,7 @@
 #combinedsnippetfootergrey .flexibleContainerCell,
 #combinedsnippetfooterorange .flexibleContainerCell {
     padding: 0 0;
+    padding-top: 20px;
 }
 #combinedsnippetfootergrey .flexibleContainer33.flexibleContainer33left p,
 #combinedsnippetfootergrey div.social-media-footer-icons
