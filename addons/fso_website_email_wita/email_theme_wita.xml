@@ -116,12 +116,22 @@
                                      -ms-text-size-adjust: 100%;
                                 }
                         </style>
+                       <style type="text/css">
+                           /* Remove space around the email design. */
+                           html,
+                           body {
+                               margin: 0 auto !important;
+                               padding: 0 !important;
+                               height: 100% !important;
+                               width: 100% !important;
+                           }
+                       </style>
                         <style type="text/css">
                                 /* Stop Outlook from adding extra spacing to tables. */
                                 table,
                                 td {
-                                    mso-table-lspace: 0pt;
-                                    mso-table-rspace: 0pt;
+                                    mso-table-lspace: 0pt !important;
+                                    mso-table-rspace: 0pt !important;
                                 }
                         </style>
                         <style type="text/css">
