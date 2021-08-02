@@ -36,6 +36,7 @@
             <!-- BY MIKE -->
             <link rel='stylesheet' href='/wita_config/static/src/css/wita_bootstrap/css/bootstrap.css' t-ignore="true"/>
             <link rel='stylesheet' href='/wita_config/static/src/css/wita_bootstrap/css/bootstrap-theme.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/wita_config/static/src/css/wita_custom_fonts.css' t-ignore="true"/>
             <link rel='stylesheet' href='/wita_config/static/src/css/wita_01_theme.css' t-ignore="true"/>
             <link rel='stylesheet' href='/wita_config/static/src/css/wita_01_theme_buttons.css' t-ignore="true"/>
             <link rel='stylesheet' href='/wita_config/static/src/css/wita_02_shop.css' t-ignore="true"/>

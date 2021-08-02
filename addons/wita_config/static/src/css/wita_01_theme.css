@@ -15,7 +15,22 @@ body #wrapwrap footer {
     height: auto;
 }
 
+/* FONTS STYLING */
+html, body, p, input, textarea {
+    font-family: 'Open-Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    line-height: 1.5em;
+}
 
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+    /*font-family: 'PT Sans', 'Trebuchet MS', sans-serif;*/
+    font-family: 'Source Serif Pro', Arial, Helvetica, sans-serif;
+    line-height: 140%;
+    color: #F19130;
+}
 /* ------------------- */
 /* BOOTSTRAP MODAL BOX */
 /* ------------------- */
