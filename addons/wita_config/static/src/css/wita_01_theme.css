@@ -20,7 +20,7 @@ html, body, p, input, textarea {
     font-family: 'Open-Sans', Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: normal;
-    color: #000;
+    color: #394b53;
     line-height: 1.5em;
 }
 
@@ -29,14 +29,21 @@ h1, h2, h3, h4, h5, h6 {
     /*font-family: 'PT Sans', 'Trebuchet MS', sans-serif;*/
     font-family: 'Source Serif Pro', Arial, Helvetica, sans-serif;
     line-height: 140%;
-    color: #F19130;
+    color: #e74406;
+}
+h1.h1-os, h2.h2-os, h3.h3-os, h4.h4-os, h5.h5-os, h6.h6-os {
+    /*font-family: 'PT Sans', 'Trebuchet MS', sans-serif;*/
+    font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 140%;
+    color: #e74406;
 }
 /* ------------------- */
 /* BOOTSTRAP MODAL BOX */
 /* ------------------- */
 /* Modal Box Trigger */
 .btn-link.information-modal-box-trigger:hover {
-    color: #8c8c8c;
+    color: #97a7b0;
 }
 
 /* -------------------- */
@@ -46,14 +53,14 @@ h1, h2, h3, h4, h5, h6 {
     color: #66666;
 }
 .navbar-default .navbar-nav > li > a:hover {
-    color: #8c8c8c;
+    color: #72848d;
 }
 .dropdown-menu > li > a {
     color: white;
 }
 .dropdown-menu > li > a:hover {
     color: white;
-    background-color: #666666;
+    background-color: #72848d;
     -webkit-transition: color 0.3s ease 0s;
     -moz-transition: color 0.3s ease 0s;
     -o-transition: color 0.3s ease 0s;
@@ -62,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover {
-    background-color: #8c8c8c;
+    background-color: #97a7b0;
 }
 
 
@@ -70,26 +77,26 @@ h1, h2, h3, h4, h5, h6 {
 /* DEFAULT ODOO COLORS */
 /* ------------------- */
 body .oe_grey {
-    background-color: #eee !important;
+    background-color: #97a7b0 !important;
 }
-body .oe_grey_light {
-    background-color: #eeeeeec7 !important;
+body .oe_grey_dark {
+    background-color: #72848d !important;
 }
 body .oe_red {
-    background-color: #ea470d !important;
+    background-color: #c22b02 !important;
     color: white;
 }
 body .oe_white {
     background-color: #ffffff !important;
 }
-body .oe_green {
-    background-color: #63bc46 !important;
+body .oe_yellow {
+    background-color: #f7a600 !important;
 }
-body .oe_blue {
-    background-color: #35477a !important;
+body .oe_orange {
+    background-color: #e74406 !important;
     color: white;
 }
 
 .row.one-page-checkout.ppt_opc-checkout {
-    border: 1px solid #7777777a;
+    border: 1px solid #394b53;
 }

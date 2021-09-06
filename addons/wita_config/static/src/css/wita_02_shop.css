@@ -19,6 +19,30 @@ body #website_sale_login_info {
     height: auto !important;
 }
 
+/* Checkout Page neu ENDE */
+/* Iframe Modal Box behavior */
+
+/* Modal Box Behavior When alt Tags image Modul is installed, save button moves out of screen */
+.modal-dialog.select-media .modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+/* IFRAME MODAL BOX BEHAVIOR BEGIN */
+
+#wsd_checkout_form .form-group {
+        position: relative !important;
+}
+.modal-open .modal {
+        overflow: visible !important;
+}
+.modal {
+    position: absolute !important;
+}
+
+#oe_main_menu_navbar div.modal.in > div.modal-dialog > div.modal-content {
+    position: relative;
+}
+
 /* ----------------------------- */
 /* PRODUCT PAGE AND CHECKOUT BOX */
 /* ----------------------------- */
@@ -110,7 +134,12 @@ div.checkout_steps_buttons {
 .row .wsd_opc_delivery {
     display: none;
 }
-
+.ppt_opc #wsd-checkout-box img.product-image {
+    width: 200px;
+}
+#wsd-checkout-box .text-center.ppt_opc_cb_inner > h1 {
+    font-size: 26px;
+}
 .ppt_opc h3.amount_title {
     text-align: center;
 }

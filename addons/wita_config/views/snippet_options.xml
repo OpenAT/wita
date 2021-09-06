@@ -12,11 +12,11 @@
                     <a tabindex="-2" href="#">Uniform Color</a>
                     <ul class="dropdown-menu">
                         <li data-value='oe_grey'><a>wita Grau</a></li>
-                        <li data-value='oe_grey_light'><a>wita Grau Hell</a></li>
-                        <li data-value='oe_red'><a>Red</a></li>
+                        <li data-value='oe_grey_dark'><a>wita Grau dunkler</a></li>
+                        <li data-value='oe_orange'><a>wita Orange</a></li>
+                        <li data-value='oe_yellow'><a>wita Gelb</a></li>
+                        <li data-value='oe_red'><a>wita Rot</a></li>
                         <li data-value='oe_white'><a>Weiss</a></li>
-                        <li data-value='oe_green'><a>Grün</a></li>
-                        <li data-value='oe_blue'><a>Blau</a></li>
                     </ul>
                 </li>
             <li data-value=""><a>None</a></li>
