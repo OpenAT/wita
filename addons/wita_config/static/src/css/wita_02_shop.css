@@ -12,6 +12,10 @@ body #website_sale_login_info {
 .ppt_opc .payment_interval_ids small.text-muted {
     font-size: 16px;
 }
+#wsd-checkout-box .payment_interval_ids small.text-muted {
+    font-size: 16px;
+}
+
 #aq2 > div:nth-child(6) {
     display: none;
 }
