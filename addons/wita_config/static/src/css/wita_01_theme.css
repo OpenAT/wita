@@ -29,7 +29,8 @@ a {
 .h1, .h2, .h3, .h4, .h5, .h6,
 h1, h2, h3, h4, h5, h6 {
     /*font-family: 'PT Sans', 'Trebuchet MS', sans-serif;*/
-    font-family: 'Source Serif Pro', Arial, Helvetica, sans-serif;
+    /*font-family: 'Source Serif Pro', Arial, Helvetica, sans-serif;*/
+    font-family: 'Open-Sans', Arial, Helvetica, sans-serif;
     line-height: 140%;
     color: #e74406;
 }
