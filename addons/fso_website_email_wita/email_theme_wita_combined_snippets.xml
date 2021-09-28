@@ -495,7 +495,7 @@
                                                                                                         <td align="center"
                                                                                                             class="textContent ckediting_enabled"
                                                                                                             contenteditable="true">
-                                                                                                            <a href="https://www.wienertafel.at/spende/" style="text-align:center;">
+                                                                                                            <a href="https://wienertafel.at/spenden/" style="text-align:center;">
                                                                                                                     Spenden
                                                                                                             </a>
                                                                                                         </td>
@@ -512,7 +512,7 @@
                                                                                                         <td align="center"
                                                                                                             class="textContent ckediting_enabled"
                                                                                                             contenteditable="true">
-                                                                                                            <a href="https://www.wienertafel.at/index.php?id=544" style="text-align:center;">
+                                                                                                            <a href="https://wienertafel.at/presse/" style="text-align:center;">
                                                                                                                     Presse
                                                                                                             </a>
                                                                                                         </td>
@@ -529,7 +529,7 @@
                                                                                                         <td align="center"
                                                                                                             class="textContent ckediting_enabled"
                                                                                                             contenteditable="true">
-                                                                                                            <a href="http://www.wienertafel.at/?id=136" style="text-align:center;">
+                                                                                                            <a href="https://wienertafel.at/unsere-vision/" style="text-align:center;">
                                                                                                                     Hintergründe
                                                                                                             </a>
                                                                                                         </td>
@@ -546,7 +546,7 @@
                                                                                                         <td align="center"
                                                                                                             class="textContent ckediting_enabled"
                                                                                                             contenteditable="true">
-                                                                                                            <a href="http://www.wienertafel.at/?id=388" style="text-align:center;">
+                                                                                                            <a href="https://wienertafel.at/impressum/" style="text-align:center;">
                                                                                                                     Impressum
                                                                                                             </a>
                                                                                                         </td>
@@ -716,11 +716,11 @@
                                                                                                     <br/>
                                                                                                     Fax: ++43 (1) 236 56 87 DW 9
                                                                                                 </br>
-                                                                                                <a href="https://www.wienertafel.at/index.php?id=388">Datenschutz</a> | <a href="https://www.wienertafel.at/" target="_blank">www.wienertafel.at</a>
+                                                                                                <a href="https://wienertafel.at/wp-content/uploads/2021/06/20210630_WT_Datenschutzerklaerung_v3.pdf" target="_blank">Datenschutz</a> | <a href="https://www.wienertafel.at/" target="_blank">www.wienertafel.at</a>
                                                                                                 <br>
                                                                                                     © 2021 Wienertafel
                                                                                                     <a style="color: grey;"
-                                                                                                       href="https://wienertafel.at/index.php?id=612"
+                                                                                                       href="https://wienertafel.at/newsletter-abmeldung/"
                                                                                                        target="_blank">
                                                                                                         Newsletter
                                                                                                         abmelden
@@ -911,7 +911,7 @@
                                                                                                                 <span style="color:#ffffff;"></span>&#8203;<br></br>
                                                                                                             </p>
                                                                                                             <p class="wita_small" style="text-align: center;">
-                                                                                                                <a style="text-decoration: none;" href="https://wienertafel.at/index.php?id=612" target="_blank">
+                                                                                                                <a style="text-decoration: none;" href="https://wienertafel.at/newsletter-abmeldung/" target="_blank">
                                                                                                                     <span style="color:#ffffff;padding: 5px 20px 5px 20px;border: 1px solid red;border-radius: 5px;">
                                                                                                                         Abmelden
                                                                                                                     </span>
@@ -1035,27 +1035,27 @@
                                                                                                         @Wiener Tafel 2021
                                                                                                     </span>
                                                                                                 </a>
-                                                                                                <a href="http://www.wienertafel.at/?id=388" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                <a href="https://wienertafel.at/wp-content/uploads/2021/06/20210630_WT_Datenschutzerklaerung_v3.pdf" target="_blank" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
                                                                                                     <span style="color:#ffffff; padding-right:20px">
                                                                                                         Datenschutz
                                                                                                     </span>
                                                                                                 </a>
-                                                                                                <a href="https://neu.wienertafel.at/spenden/" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                <a href="https://wienertafel.at/spenden/" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
                                                                                                     <span style="color:#ffffff; padding-right:20px">
                                                                                                         Spenden
                                                                                                     </span>
                                                                                                 </a>
-                                                                                                <a href="https://neu.wienertafel.at/presse/" style="w border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                <a href="https://wienertafel.at/presse/" style="w border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
                                                                                                     <span style="color:#ffffff; padding-right:20px">
                                                                                                         Presse
                                                                                                     </span>
                                                                                                 </a>
-                                                                                                <a href="https://neu.wienertafel.at/mission/" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                <a href="https://wienertafel.at/unsere-vision/" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
                                                                                                     <span style="color:#ffffff; padding-right:20px">
                                                                                                         Hintergründe
                                                                                                     </span>
                                                                                                 </a>
-                                                                                                <a href="http://www.wienertafel.at/?id=388" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                <a href="https://wienertafel.at/impressum/" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
                                                                                                     <span style="color:#ffffff; padding-right:20px">
                                                                                                         Impressum
                                                                                                     </span>
@@ -1245,7 +1245,7 @@
                                                                                                                 <span style="color:#ffffff;"></span>&#8203;<br></br>
                                                                                                             </p>
                                                                                                             <p class="wita_small" style="text-align: center;">
-                                                                                                                <a style="text-decoration: none;" href="https://wienertafel.at/index.php?id=612" target="_blank">
+                                                                                                                <a style="text-decoration: none;" href="https://wienertafel.at/newsletter-abmeldung/" target="_blank">
                                                                                                                     <span style="color:#ffffff;padding: 5px 20px 5px 20px;border: 1px solid #ea470d;border-radius: 5px;">
                                                                                                                         Abmelden
                                                                                                                     </span>
@@ -1369,27 +1369,27 @@
                                                                                                         @Wiener Tafel 2021
                                                                                                     </span>
                                                                                                 </a>
-                                                                                                <a href="http://www.wienertafel.at/?id=388" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                <a href="https://wienertafel.at/wp-content/uploads/2021/06/20210630_WT_Datenschutzerklaerung_v3.pdf" target="_blank" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
                                                                                                     <span style="color:#ffffff; padding-right:20px">
                                                                                                         Datenschutz
                                                                                                     </span>
                                                                                                 </a>
-                                                                                                <a href="https://neu.wienertafel.at/spenden/" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                <a href="https://wienertafel.at/spenden/" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
                                                                                                     <span style="color:#ffffff; padding-right:20px">
                                                                                                         Spenden
                                                                                                     </span>
                                                                                                 </a>
-                                                                                                <a href="https://neu.wienertafel.at/presse/" style="w border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                <a href="https://wienertafel.at/presse/" style="w border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
                                                                                                     <span style="color:#ffffff; padding-right:20px">
                                                                                                         Presse
                                                                                                     </span>
                                                                                                 </a>
-                                                                                                <a href="https://neu.wienertafel.at/mission/" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                <a href="https://wienertafel.at/unsere-vision/" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
                                                                                                     <span style="color:#ffffff; padding-right:20px">
                                                                                                         Hintergründe
                                                                                                     </span>
                                                                                                 </a>
-                                                                                                <a href="http://www.wienertafel.at/?id=388" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
+                                                                                                <a href="https://wienertafel.at/impressum/" style=" border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10">
                                                                                                     <span style="color:#ffffff; padding-right:20px">
                                                                                                         Impressum
                                                                                                     </span>
