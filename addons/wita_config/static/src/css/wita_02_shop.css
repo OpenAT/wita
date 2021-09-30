@@ -8,7 +8,7 @@ body #website_sale_login_info {
 /* Responsive */
 @media (max-width: 480px) {
     .price_donate, #description_sale {
-        padding: 0 0;
+        padding: 0 0 !important;
     }
     .btn {
         white-space: normal;
