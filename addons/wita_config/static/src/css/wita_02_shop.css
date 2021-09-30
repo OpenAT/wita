@@ -5,6 +5,15 @@ body #website_sale_login_info {
     display: none;
 }
 
+/* Responsive */
+@media (max-width: 480px) {
+    .price_donate, #description_sale {
+        padding: 0 0;
+    }
+    .btn {
+        white-space: normal;
+    }
+}
 /* FIxED for STANDARD */
 .payment_interval_ids {
     text-align: center;
