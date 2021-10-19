@@ -17,3 +17,4 @@
 ##############################################################################
 
 import res_partner
+import frst_personemailgruppe

@@ -27,5 +27,6 @@ Customer configuration for the instance wita
     'data': [
         'views/templates.xml',
         'views/snippet_options.xml',
+        'views/res_partner.xml',
     ],
 }
