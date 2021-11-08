@@ -32,6 +32,22 @@ body #website_sale_login_info {
     height: auto !important;
 }
 
+/* Mobile Resets Donation Forms */
+@media (max-width: 414px) {
+    body #website_sale_donate #product_detail h3.h3-os,
+    body #website_sale_donate #product_detail p.h4-os {
+        font-size: 16px;
+    }
+    #wrap > div > div.row.wsd_checkout_pages_snippets_top > div > div > img {
+        width: 100%;
+    }
+    #product_desc_short > section > div.container {
+        text-align: center;
+    }
+}
+
+
+
 /* Checkout Page neu ENDE */
 /* Iframe Modal Box behavior */
 
