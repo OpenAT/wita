@@ -145,6 +145,23 @@ div.checkout_steps_buttons {
     display: none;
 }
 
+/* TEMP Workaround spendenprodukt Produkt Seite Bild auf 100% in Mobile Skalieren
+da transform genutzt wurde und daher anscheinend im DOM Elemente verloren gegangen sind TODO: bitte template check auf noupdate
+und Update des richtigen Moduls danach */
+#product_desc_short_top > img {
+    width: fit-content;
+}
+
+@media (min-width: 312px) {
+    #product_desc_short_top > img {
+        width: 100%;
+    }
+    #website_sale_donate > div > div.row.ppt_opc-top > div > div:nth-child(2) > div {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
 
 /* -------- */
 /* CHECKOUT */
