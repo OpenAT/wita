@@ -152,7 +152,7 @@ und Update des richtigen Moduls danach */
     width: fit-content;
 }
 
-@media (min-width: 312px) {
+@media (min-width: 300px) {
     #product_desc_short_top img {
         width: 100%;
     }
