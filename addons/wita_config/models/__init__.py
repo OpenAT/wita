@@ -18,3 +18,4 @@
 
 import res_partner
 import frst_personemailgruppe
+import frst_persongruppe

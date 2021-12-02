@@ -28,3 +28,8 @@ msgstr "Anrede"
 #: selection:res.partner,gender:0
 msgid "Male"
 msgstr "Herr"
+
+#. module: wita_config
+#: field:res.partner,underage_participation_ezb_ok:0
+msgid "Underage participation EZB OK"
+msgstr "Minderjährig Teilnahme EZB OK"

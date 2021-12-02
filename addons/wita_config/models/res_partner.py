@@ -13,3 +13,5 @@ class ResPartner(models.Model):
 
     info_newsletter_7329 = fields.Boolean(string="Info Newsletter 7329")
     spenden_newsletter_7330 = fields.Boolean(string="Spenden Newsletter 7330")
+
+    underage_participation_ezb_ok = fields.Boolean(string="Underage participation EZB OK")
