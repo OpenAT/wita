@@ -32,6 +32,22 @@ body #website_sale_login_info {
     height: auto !important;
 }
 
+/* Mobile Resets Donation Forms */
+@media (max-width: 414px) {
+    body #website_sale_donate #product_detail h3.h3-os,
+    body #website_sale_donate #product_detail p.h4-os {
+        font-size: 16px;
+    }
+    #wrap > div > div.row.wsd_checkout_pages_snippets_top > div > div > img {
+        width: 100%;
+    }
+    #product_desc_short > section > div.container {
+        text-align: center;
+    }
+}
+
+
+
 /* Checkout Page neu ENDE */
 /* Iframe Modal Box behavior */
 
@@ -127,6 +143,23 @@ div.checkout_steps_buttons {
 /* Hide the login Button TODO: I think there is a setting for this in the backend? */
 #wsd_checkout_steps_nav a[href*="login"] {
     display: none;
+}
+
+/* TEMP Workaround spendenprodukt Produkt Seite Bild auf 100% in Mobile Skalieren
+da transform genutzt wurde und daher anscheinend im DOM Elemente verloren gegangen sind TODO: bitte template check auf noupdate
+und Update des richtigen Moduls danach */
+#product_desc_short_top img {
+    width: fit-content;
+}
+
+@media (min-width: 280px) {
+    #product_desc_short_top img {
+        width: 100%;
+    }
+    #website_sale_donate > div > div.row.ppt_opc-top > div > div:nth-child(2) > div {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 
