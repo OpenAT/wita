@@ -911,7 +911,7 @@
                                                                                                                 <span style="color:#ffffff;"></span>&#8203;<br></br>
                                                                                                             </p>
                                                                                                             <p class="wita_small" style="text-align: center;">
-                                                                                                                <a style="text-decoration: none;" href="https://wienertafel.at/newsletter-abmeldung/" target="_blank">
+                                                                                                                <a class="link-withtoken" style="text-decoration: none;" href="https://wienertafel.at/newsletter-abmeldung/" target="_blank">
                                                                                                                     <span style="color:#ffffff;padding: 5px 20px 5px 20px;border: 1px solid red;border-radius: 5px;">
                                                                                                                         Abmelden
                                                                                                                     </span>
@@ -1245,7 +1245,7 @@
                                                                                                                 <span style="color:#ffffff;"></span>&#8203;<br></br>
                                                                                                             </p>
                                                                                                             <p class="wita_small" style="text-align: center;">
-                                                                                                                <a style="text-decoration: none;" href="https://wienertafel.at/newsletter-abmeldung/" target="_blank">
+                                                                                                                <a class="link-withtoken" style="text-decoration: none;" href="https://wienertafel.at/newsletter-abmeldung/" target="_blank">
                                                                                                                     <span style="color:#ffffff;padding: 5px 20px 5px 20px;border: 1px solid #ea470d;border-radius: 5px;">
                                                                                                                         Abmelden
                                                                                                                     </span>
