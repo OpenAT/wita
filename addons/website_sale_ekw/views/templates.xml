@@ -13,8 +13,9 @@
 
                 <!-- Java script used in all themes -->
                 <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.min.js"/>
-                <script type="text/javascript" src="/website_sale_ekw/static/src/js/wita_cart_anim.js"/>
+                <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.js"/>
                 <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.path.js"/>
+                <script type="text/javascript" src="/website_sale_ekw/static/src/js/wita_cart_anim.js"/>
 
             </xpath>
         </template>

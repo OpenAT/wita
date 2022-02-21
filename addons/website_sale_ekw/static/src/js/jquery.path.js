@@ -3,11 +3,11 @@
  * version 0.0.1
  * Released under the MIT license.
  */
-  var path = $.path.bezier({
+/*  var path = $.path.bezier({
     start: {x:10, y:10, angle: 20, length: 0.3},
     end:   {x:20, y:30, angle: -20, length: 0.2}
   })
-  $("myobj").animate({path: path}, duration)
+  $("myobj").animate({path: path}, duration)*/
 
 
 ;(function($){
