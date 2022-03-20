@@ -19,7 +19,7 @@ CRM settings for the instance wita
     'installable': True,
     'depends': [
         'wita_config',
-        'fsonline',
+        'fso_sosync',
     ],
     'data': [
         'data/wita_user_groups.xml',
