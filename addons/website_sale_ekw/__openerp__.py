@@ -27,8 +27,6 @@ grid for the /shop pages
     'website': 'https://www.datadialog.net',
     'installable': True,
     'depends': [
-        'website',
-        'website_sale',
         'website_sale_donate',
         'website_sale_categories',
     ],
