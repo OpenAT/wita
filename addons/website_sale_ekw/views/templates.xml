@@ -2,24 +2,34 @@
 <openerp>
     <data>
 
-        <template id="website.theme_proj" name="PROJ Website Theme" inherit_id="website.layout">
-            <xpath expr="//head" position="inside">
-                <link rel='stylesheet' href='/website_sale_ekw/static/src/css/ekw_theme.css' t-ignore="true"/>
+<!--        <template id="website.theme_wita_category_check" name="WITA Website Theme" inherit_id="website_sale_categories.website_sale_categories_variables">
+            <xpath expr='//body[@data-rootcatid="4"]'>
+                <t t-set="ekw" t-value="1"/>
             </xpath>
+        </template>-->
+
+        <template id="website.theme_wita" name="WITA Website Theme" inherit_id="website.layout">
+                <xpath expr="//head" position="inside">
+                    <t t-if="category.id == 4 if category else False">
+                        <t t-set="ekw" t-value="1"/>
+                        <t t-raw="juhuuuu1"/>
+                        <t t-esc="ekw"/>
+                    </t>
+                    <link rel='stylesheet' href='juhuuu3'/>
+                    <link rel='stylesheet' href='/website_sale_ekw/static/src/css/ekw_theme.css' t-ignore="true"/>
+                </xpath>
         </template>
                 <!-- Load custom CSS and JS for the website -->
-        <template id="wita_assets_frontend" inherit_id="website_forum.assets_frontend" name="wita CSS and JS">
-            <xpath expr='//script[@src="/website_forum/static/src/js/website_forum.js"]' position="after">
+            <template id="wita_assets_frontend" inherit_id="website_forum.assets_frontend" name="wita CSS and JS">
+                    <xpath expr='//script[@src="/website_forum/static/src/js/website_forum.js"]' position="after">
+                        <!-- Java script used in all themes -->
+                        <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.min.js"/>
+                        <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.js"/>
+                        <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.path.js"/>
+                        <script type="text/javascript" src="/website_sale_ekw/static/src/js/wita_cart_anim.js"/>
 
-                <!-- Java script used in all themes -->
-                <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.min.js"/>
-                <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.js"/>
-                <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.path.js"/>
-                <script type="text/javascript" src="/website_sale_ekw/static/src/js/wita_cart_anim.js"/>
-
-            </xpath>
-        </template>
-
+                    </xpath>
+            </template>
         <!-- INHERIT PRODUCT LISTING products_item: ADD "Product Sales Description" and "Add to Cart Button" -->
         <!-- HINT: Do NOT enable original desc. and add to cart option -->
         <template id="products_item_wita" inherit_id="website_sale.products_item" name="wita Product Description">
@@ -95,7 +105,7 @@
                             <div id="spenden_paket_closed" class="spenden_paket_bg_sent"></div>
                             <div id="spenden_paket_confirmed" class="vCenter">
                                 <div>
-                                    <p>Thank you!</p>
+                                    <p>Vielen Dank!</p>
                                 </div>
                             </div>
                         </div>
@@ -106,7 +116,7 @@
 
                     <!-- Checkout Button -->
                     <div class="text-left small_cart_buttons">
-                        <a t-if="not optional_products and website_sale_order and website_sale_order.website_order_line" class="btn btn-primary pull-right" href="#">Checkout</a>
+                        <a t-if="not optional_products and website_sale_order and website_sale_order.website_order_line" class="btn btn-primary pull-right" href="#">zur Kasse rollen</a>
                     </div>
                     <div class="clearfix"/>
                 </div>

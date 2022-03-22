@@ -112,7 +112,7 @@ $(document).ready( function() {
 			e.preventDefault();
 
 			$('.spenden_paket_bg').css('background','transparent');
-			$('.spenden_paket_bg_2').css("background-image", "url('/wita_config/static/img/Warenkorb_leer.png')")
+			$('.spenden_paket_bg_2').css({"background-image": "url('/website_sale_ekw/static/src/img/0_kl.png')", "width": "290px"});
 
 			var timeout_animation = setTimeout( function() {
 				$('.spenden_paket_bg_2').css('left','300px').css('z-index', '99');
@@ -128,6 +128,26 @@ $(document).ready( function() {
 			//window.parent.$("html, body").animate({ scrollTop: $('.one-page-checkout').offset().top });
 			parentIFrame.scrollToOffset( 0, $('.one-page-checkout').offset().top - 25 );
 			parentIFrame.sendMessage('parcel-closed');
-		}, 3000);
+		}, 100);
 	});
+	// Display the right cart depending on amount of items inside cart BEGIN
+	console.log($( ".js_quantity" ));
+	let count = 0;
+	let items = $( ".js_quantity" );
+	items.each(function( index ) {
+  		// console.log( index + ": " + items[index].value );
+  		count = count + parseInt(items[index].value);
+	});
+
+	if ( count > 4) {
+		count = 4;
+	}
+
+	if ( count < 0 ) {
+		count = 0;
+	}
+
+	$('.spenden_paket_bg_2').css({"background-image": "url('/website_sale_ekw/static/src/img/" + count + "_kl.png'", "width": "290px"});
+	// Display the right cart depending on amount of items inside cart END
+
 });
