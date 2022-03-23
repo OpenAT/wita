@@ -18,6 +18,15 @@
                     <link rel='stylesheet' href='juhuuu3'/>
                     <link rel='stylesheet' href='/website_sale_ekw/static/src/css/ekw_theme.css' t-ignore="true"/>
                 </xpath>
+
+            <!-- Am Ende, innerhalb des body-Tags einfügen -->
+            <xpath expr="//body" position="inside">
+                <t t-if="category.id == 4 if category else False">
+                    <script type="text/javascript" id="my_manual_category_java_script_2">
+                        console.log("Only log this for category 4, at the end but within body!");
+                    </script>
+                </t>
+            </xpath>
         </template>
                 <!-- Load custom CSS and JS for the website -->
             <template id="wita_assets_frontend" inherit_id="website_forum.assets_frontend" name="wita CSS and JS">
@@ -27,7 +36,6 @@
                         <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.js"/>
                         <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.path.js"/>
                         <script type="text/javascript" src="/website_sale_ekw/static/src/js/wita_cart_anim.js"/>
-
                     </xpath>
             </template>
         <!-- INHERIT PRODUCT LISTING products_item: ADD "Product Sales Description" and "Add to Cart Button" -->
