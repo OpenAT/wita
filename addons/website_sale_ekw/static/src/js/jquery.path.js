@@ -9,11 +9,9 @@
   })
   $("myobj").animate({path: path}, duration)*/
 
-
 ;(function($){
 
   $.path = {};
-
   var V = {
     rotate: function(p, degrees) {
       var radians = degrees * Math.PI / 180,

@@ -20,11 +20,32 @@ $(document).ready( function() {
 		}
 	};
 
+/* Joe test */
 
+/*  function printMousePosTOP(event) {
+    let y = event.clientY;
+      "clientX: " + event.clientX +
+      " - clientY: " + event.clientY;
+      console.log('Mouse Y:' + y);
+    return y;
+  }
+  function printMousePosLEFT(event) {
+    let x = event.clientX;
+      "clientX: " + event.clientX +
+      " - clientY: " + event.clientY;
+      console.log('Mouse X:' + x);
+    return x;
+  }
+
+  var x = document.addEventListener('click', printMousePosTOP);
+  var y = document.addEventListener('click', printMousePosLEFT);
+
+  console.log('Mouse X:' + x, 'Mouse Y:' + y);*/
+  /* joe test */
 	// giftbox-animation
 	$effect_disp_width = 0; // min. screen resolution where animation starts; 0 = on every device, 768 = no effect on mobile...
 
-	$("body[data-rootcatid='4'] .oe_product").click( function( e ) {
+	$("body[data-rootcatid='4'] .oe_product").on( 'click', function( e ) {
 		if ( !relaunch ) {
 			e.preventDefault();
 
@@ -127,8 +148,8 @@ $(document).ready( function() {
 
 			//window.parent.$("html, body").animate({ scrollTop: $('.one-page-checkout').offset().top });
 			parentIFrame.scrollToOffset( 0, $('.one-page-checkout').offset().top - 25 );
-			parentIFrame.sendMessage('parcel-closed');
-		}, 100);
+			parentIFrame.sendMessage('cart-finished');
+		}, 2500);
 	});
 	// Display the right cart depending on amount of items inside cart BEGIN
 	console.log($( ".js_quantity" ));

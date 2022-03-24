@@ -8,33 +8,40 @@
             </xpath>
         </template>-->
 
-        <template id="website.theme_wita" name="WITA Website Theme" inherit_id="website.layout">
+        <template id="theme_wita_ekw" name="WITA Website Theme" inherit_id="website.layout">
                 <xpath expr="//head" position="inside">
                     <t t-if="category.id == 4 if category else False">
-                        <t t-set="ekw" t-value="1"/>
-                        <t t-raw="juhuuuu1"/>
-                        <t t-esc="ekw"/>
+                        <link rel='stylesheet' href='/website_sale_ekw/static/src/css/ekw_theme.css' t-ignore="true"/>
                     </t>
-                    <link rel='stylesheet' href='juhuuu3'/>
-                    <link rel='stylesheet' href='/website_sale_ekw/static/src/css/ekw_theme.css' t-ignore="true"/>
+                </xpath>
+                <xpath expr="//body" position="inside">
+                        <t t-if="category.id == 4 if category else False">
+                            <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.min.js"/>
+                            <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.js"/>
+                            <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.path.js"/>
+                            <script type="text/javascript" src="/website_sale_ekw/static/src/js/wita_cart_anim.js"/>
+                        </t>
                 </xpath>
         </template>
                 <!-- Load custom CSS and JS for the website -->
-            <template id="wita_assets_frontend" inherit_id="website_forum.assets_frontend" name="wita CSS and JS">
-                    <xpath expr='//script[@src="/website_forum/static/src/js/website_forum.js"]' position="after">
-                        <!-- Java script used in all themes -->
-                        <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.min.js"/>
-                        <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.js"/>
-                        <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.path.js"/>
-                        <script type="text/javascript" src="/website_sale_ekw/static/src/js/wita_cart_anim.js"/>
-
+<!--            <template id="wita_assets_frontend" inherit_id="website_forum.assets_frontend" name="wita CSS and JS">
+                    &lt;!&ndash;<xpath expr='//script[@src="/website_forum/static/src/js/website_forum.js"]' position="after">&ndash;&gt;
+                    <xpath expr="//body" position="inside">
+                            <t t-if="category.id == 4 if category else False">
+                                <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.min.js"/>
+                                <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.js"/>
+                                <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.path.js"/>
+                                <script type="text/javascript" src="/website_sale_ekw/static/src/js/wita_cart_anim.js"/>
+                            </t>
                     </xpath>
-            </template>
+            </template>-->
+
         <!-- INHERIT PRODUCT LISTING products_item: ADD "Product Sales Description" and "Add to Cart Button" -->
         <!-- HINT: Do NOT enable original desc. and add to cart option -->
         <template id="products_item_wita" inherit_id="website_sale.products_item" name="wita Product Description">
             <xpath expr="//div[@itemprop='offers']" position="after">
             <!-- wita Product Description -->
+            <t t-if="category.id == 4 if category else False">
                 <div class="text-info oe_subdescription" contenteditable="false">
                     <div itemprop="description" t-field="product.description_sale"></div>
                 </div>
@@ -48,11 +55,15 @@
                         <a class="btn btn-default btn-xs fa fa-shopping-cart" t-att-href="keep('/shop/product/%s' % slug(product), page=(pager['page']['num'] if pager['page']['num']>1 else None))">in den Einkaufskorb</a>
                     </t>
                 </div>
+            </t>
             </xpath>
 
             <!-- Icon Container for Javascript Flip Animation -->
             <xpath expr="//div[@class='oe_product_image']" position="after">
+                <t t-if="category.id == 4 if category else False">
+<!--
                      Product Image
+-->
                     <div class="oe_product_image">
 
                         <a itemprop="url" class="front" t-att-href="keep('/shop/product/%s' % slug(product), page=(pager['page']['num'] if pager['page']['num']>1 else None))">
@@ -62,22 +73,27 @@
                             <img src="/website_sale_ekw/static/src/img/product_icon.png"/>
                         </div>
                       </div>
+                </t>
             </xpath>
         </template>
 
         <template id="products_item_flipback" inherit_id="website_sale_donate.wsd_products_item_image_extraboxes" name="wita Products Item Image back">
             <xpath expr="//div[@class='wrap_wsd_2']" position="after">
-                <div class="back">
-                    <div class="wsd-icon_container">
-                        <img src="/website_sale_ekw/static/src/img/product_icon.png" class="wsd-animated-giftbox"/>
+                <t t-if="category.id == 4 if category else False">
+                    <div class="back">
+                        <div class="wsd-icon_container">
+                            <img src="/website_sale_ekw/static/src/img/product_icon.png" class="wsd-animated-giftbox"/>
+                        </div>
                     </div>
-                </div>
+                </t>
             </xpath>
         </template>
 
         <template id="products_item_flip_image_addclassfront" inherit_id="products_item_flipback" name="wita Products Item Flip Image">
             <xpath expr="//div[@class='wrap_wsd_2']" position="attributes">
-                <attribute name="class">wrap_wsd_2 front</attribute>
+                <t t-if="category.id == 4 if category else False">
+                    <attribute name="class">wrap_wsd_2 front</attribute>
+                </t>
             </xpath>
         </template>
 
@@ -88,38 +104,39 @@
             <!-- ATTENTION: FOR THE WEBSITE RELAUNCH THE CART WAS MOVED AFTER THE GRID (REQUESTED BY ANDI FROM FLOATWORKS) BUT SINCE THE CSS WAS ALREADY DONE I HAD TO KEEP THE DIV BOX ID #products_grid_before -->
             <xpath expr="//div[@id='products_grid_before']" position="replace"></xpath>
             <xpath expr="//div[@id='products_grid']" position="after">
-
-                <div id="products_grid_before" class="col-md-4">
-                    <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
-                    <!-- Small Cart Header -->
-                    <t t-call="website_sale_donate.small_cart_header">
-                        <t t-set="show_small_cart_header" t-value="True"/>
-                    </t>
-                    <!-- wita Package Drop Area -->
-                    <div class="box_content">
-                        <div id="spenden_paket_circle">
-                            <div id="spenden_paket_opened">
-                                <div class="spenden_paket_bg_2"></div>
-                                <div class="spenden_paket_bg"></div>
-                            </div>
-                            <div id="spenden_paket_closed" class="spenden_paket_bg_sent"></div>
-                            <div id="spenden_paket_confirmed" class="vCenter">
-                                <div>
-                                    <p>Vielen Dank!</p>
+                <t t-if="category.id == 4 if category else False">
+                    <div id="products_grid_before" class="col-md-4">
+                        <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
+                        <!-- Small Cart Header -->
+                        <t t-call="website_sale_donate.small_cart_header">
+                            <t t-set="show_small_cart_header" t-value="True"/>
+                        </t>
+                        <!-- wita Package Drop Area -->
+                        <div class="box_content">
+                            <div id="spenden_paket_circle">
+                                <div id="spenden_paket_opened">
+                                    <div class="spenden_paket_bg_2"></div>
+                                    <div class="spenden_paket_bg"></div>
+                                </div>
+                                <div id="spenden_paket_closed" class="spenden_paket_bg_sent"></div>
+                                <div id="spenden_paket_confirmed" class="vCenter">
+                                    <div>
+                                        <p>Vielen Dank!</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Small Cart -->
-                    <t t-call="website_sale_donate.small_cart"/>
+                        <!-- Small Cart -->
+                        <t t-call="website_sale_donate.small_cart"/>
 
-                    <!-- Checkout Button -->
-                    <div class="text-left small_cart_buttons">
-                        <a t-if="not optional_products and website_sale_order and website_sale_order.website_order_line" class="btn btn-primary pull-right" href="#">zur Kasse rollen</a>
+                        <!-- Checkout Button -->
+                        <div class="text-left small_cart_buttons">
+                            <a t-if="not optional_products and website_sale_order and website_sale_order.website_order_line" class="btn btn-primary pull-right" href="#">zur Kasse rollen</a>
+                        </div>
+                        <div class="clearfix"/>
                     </div>
-                    <div class="clearfix"/>
-                </div>
+                </t>
             </xpath>
         </template>
 

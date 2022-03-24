@@ -1,7 +1,5 @@
 /* Special Cart Shop View */
-.wsd-icon_container {
-  display: none;
-}
+/* This CSS is optimized for col-md-6 and col-md-6 Set at Category Level ONLY and 9 Products and 3 in one Row */
 .wsd-icon_container {
   display: none;
 }
@@ -82,6 +80,7 @@
     margin-left: -35px;
   }
 }
+/* responsive ekw */
 @media screen and (max-width: 1400px) {
   /*.wsd-icon_container {
       img {
@@ -90,12 +89,37 @@
     }*/
 }
 @media screen and (max-width: 768px) {
-  /*.wsd-icon_container {
+  #products_grid_before {
+    background-color: transparent;
+  }
+  /*    .wsd-icon_container {
       display: none;
-    }
-    .oe_product .oe_product_image img:hover {
-      width: 345px;
     }*/
+  #products_grid .oe_product {
+    width: 100px;
+    height: 100px;
+    float: initial;
+  }
+  .oe_product .oe_product_image img:hover {
+    width: 300px;
+    height: 300px;
+    float: initial;
+  }
+  .oe_product_image {
+    height: 100px;
+  }
+  body #products_grid .oe_product section {
+    background: #00000042;
+  }
+  #products_grid table {
+    float: initial;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    /* display: inline-block; */
+  }
 }
 /*
   .wsd-icon_container {
@@ -415,4 +439,8 @@
 }
 #products_grid .oe_product .oe_product_image img {
   background-color: white;
+}
+/* responsive ekw */
+#products_grid_before {
+  background-color: transparent;
 }
