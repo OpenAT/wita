@@ -1,5 +1,11 @@
 /* Special Cart Shop View */
 /* This CSS is optimized for col-md-6 and col-md-6 Set at Category Level ONLY and 9 Products and 3 in one Row */
+.oe_product .oe_product_image {
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
 .wsd-icon_container {
   display: none;
 }
