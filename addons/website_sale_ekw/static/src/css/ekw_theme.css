@@ -91,22 +91,32 @@
   }
 }
 /* responsive ekw */
-a.ekw-button {
-  font-family: 'CreativeLandDesert', Arial, sans-serif;
+#spenden_paket_confirmed > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#products_grid_before a.ekw-button {
+  font-family: 'NexaRustSans', Arial, sans-serif;
 }
 #products_grid:before {
   content: 'wählen Sie die Lebensmittel';
   font-family: 'NexaRustSans', Arial, sans-serif;
   display: block;
-  width: 100%;
+  width: 200px;
   text-align: center;
+  margin: auto;
+  color: #394b53;
 }
 #products_grid_before a,
 #products_grid_before p,
 #products_grid_before span,
 #products_grid_before h3,
 #products_grid_before,
-#products_grid_before .oe_cart.small_cart {
+#products_grid_before .oe_cart.small_cart,
+#cart_products > tbody > tr > td:nth-child(2) > div:nth-child(3),
+#cart_products > thead > tr {
   font-family: 'CreativeLandDesert', Arial, sans-serif;
 }
 .glyphicon-trash:before {
@@ -290,6 +300,17 @@ a.ekw-button {
 #spenden_paket_confirmed p {
   color: #e4761e;
   margin-bottom: 0;
+  font-size: 1.5em;
+}
+#spenden_paket_closed,
+#spenden_paket_confirmed {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .spenden_paket_bg,
 .spenden_paket_bg_2,
@@ -455,16 +476,6 @@ a.ekw-button {
 .product_item > div:hover .quick_add_to_cart a {
   background-color: #333333;
 }
-#spenden_paket_closed,
-#spenden_paket_confirmed {
-  display: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
 #products_grid_before {
   box-shadow: none;
   border-radius: 5px;
@@ -480,7 +491,7 @@ a.ekw-button {
     margin: 0;*/
 }
 #products_grid_before.small_cart_header a {
-  color: #333;
+  color: #394b53;
 }
 /*  .oe_product.oe-height-2 {
       height: 330px !important;
@@ -489,7 +500,7 @@ a.ekw-button {
 #products_grid .product_price.text-primary h5,
 #products_grid .product_price.text-primary a,
 #products_grid .product_price.text-primary span {
-  color: #747373;
+  color: #394b53;
   font-family: 'CreativeLandDesert', Arial, sans-serif;
   font-weight: normal;
   font-style: normal;

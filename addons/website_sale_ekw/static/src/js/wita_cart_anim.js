@@ -60,7 +60,7 @@ $(document).ready( function() {
 				var $move = $move_old.clone().appendTo('body').css({
 					'top': $move_old.offset().top,
 					'left': $move_old.offset().left,
-					'width': '70px',
+					'width': '100px',
 					'z-index': 999,
 					'position':'absolute'
 				});
@@ -73,8 +73,8 @@ $(document).ready( function() {
 						length: 0
 					},
 					end: {
-						x: $target.offset().left + 100,
-						y: $target.offset().top + 135,
+						x: $target.offset().left + 130,
+						y: $target.offset().top + 70,
 						angle: 60,
 						length: 1
 					}
@@ -130,10 +130,12 @@ $(document).ready( function() {
 	// close box and slide to the right on submit of the cart
 	$("body[data-rootcatid='4'] .small_cart_buttons a").click( function(e) {
 		if ( !relaunch ) {
+
 			e.preventDefault();
 
 			$('.spenden_paket_bg').css('background','transparent');
-			$('.spenden_paket_bg_2').css({"background-image": "url('/website_sale_ekw/static/src/img/0_kl.png')", "width": "290px"});
+			// $('.spenden_paket_bg_2').css({"background-image": "url('/website_sale_ekw/static/src/img/0_kl.png')", "width": "290px"});
+				$('.spenden_paket_bg_2').css({"background-image": "url('/website_sale_ekw/static/src/img/" + getItemCount() + "_kl.png'", "width": "290px"});
 
 			var timeout_animation = setTimeout( function() {
 				$('.spenden_paket_bg_2').css('left','300px').css('z-index', '99');
@@ -152,7 +154,15 @@ $(document).ready( function() {
 		}, 2500);
 	});
 	// Display the right cart depending on amount of items inside cart BEGIN
-	console.log($( ".js_quantity" ));
+
+
+	$('.spenden_paket_bg_2').css({"background-image": "url('/website_sale_ekw/static/src/img/" + getItemCount() + "_kl.png'", "width": "290px"});
+	// Display the right cart depending on amount of items inside cart END
+
+});
+
+function getItemCount() {
+	// console.log($( ".js_quantity" ));
 	let count = 0;
 	let items = $( ".js_quantity" );
 	items.each(function( index ) {
@@ -167,8 +177,5 @@ $(document).ready( function() {
 	if ( count < 0 ) {
 		count = 0;
 	}
-
-	$('.spenden_paket_bg_2').css({"background-image": "url('/website_sale_ekw/static/src/img/" + count + "_kl.png'", "width": "290px"});
-	// Display the right cart depending on amount of items inside cart END
-
-});
+	return count;
+}
