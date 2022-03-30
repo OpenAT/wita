@@ -1,0 +1,10 @@
+/* FONT TESTS */
+@font-face {
+    font-family: "CreativeLandDesert";
+    src: url("/website_sale_ekw/static/src/css/fonts/MyCreativeLand-DessertMenuScript-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "NexaRustSans";
+    src: url("/website_sale_ekw/static/src/css/fonts/NexaRustSans-Black.otf") format("opentype");
+}

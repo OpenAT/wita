@@ -11,6 +11,7 @@
         <template id="theme_wita_ekw" name="WITA Website Theme" inherit_id="website.layout">
                 <xpath expr="//head" position="inside">
                     <t t-if="category.id == 4 if category else False">
+                        <link rel='preload stylesheet' as='style' href='/website_sale_ekw/static/src/css/custom_ekw_fonts.css' t-ignore="true"/>
                         <link rel='stylesheet' href='/website_sale_ekw/static/src/css/ekw_theme.css' t-ignore="true"/>
                     </t>
                 </xpath>
@@ -132,8 +133,26 @@
 
                         <!-- Checkout Button -->
                         <div class="text-left small_cart_buttons">
-                            <a t-if="not optional_products and website_sale_order and website_sale_order.website_order_line" class="btn btn-primary pull-right" href="#">zur Kasse rollen</a>
+                            <a t-if="not optional_products and website_sale_order and website_sale_order.website_order_line" class="btn btn-primary pull-center ekw-button" href="#">Lebensmittel spenden</a>
                         </div>
+ <!--inklude this again after category_goals modul is installed in the new core Version -->
+
+                        <!--
+                        <div t-if="category and category.goal" class="category-goal-box col-lg-12 pull-center">
+                           <div class="category-goal-reached">
+                               <p>
+                                   <t t-esc="category.goal_reached" />% gefüllt
+                               </p>
+                           </div>
+                           <div class="category-goal">
+                               <p>
+                                    Gemeinsames Ziel: <t t-esc="category.goal"/>
+                               </p>
+                           </div>
+                       </div>
+                       -->
+
+
                         <div class="clearfix"/>
                     </div>
                 </t>
