@@ -157,16 +157,24 @@
       }
     }*/
 }
+@media (max-width: 500px) {
+  .oe_cart table tr {
+    float: initial !important;
+  }
+}
 @media screen and (max-width: 768px) {
   #products_grid_before {
     background-color: transparent;
+  }
+  .wrap_wsd_1 {
+    height: 100px;
   }
   /*    .wsd-icon_container {
       display: none;
     }*/
   #products_grid .oe_product {
     width: 100px;
-    height: 100px;
+    height: 120px;
     float: initial;
   }
   .oe_product .oe_product_image img:hover {

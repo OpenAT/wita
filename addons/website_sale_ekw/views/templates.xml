@@ -135,9 +135,7 @@
                         <div class="text-left small_cart_buttons">
                             <a t-if="not optional_products and website_sale_order and website_sale_order.website_order_line" class="btn btn-primary pull-center ekw-button" href="#">Lebensmittel spenden</a>
                         </div>
- <!--inklude this again after category_goals modul is installed in the new core Version -->
 
-                        <!--
                         <div t-if="category and category.goal" class="category-goal-box col-lg-12 pull-center">
                            <div class="category-goal-reached">
                                <p>
@@ -150,7 +148,6 @@
                                </p>
                            </div>
                        </div>
-                       -->
 
 
                         <div class="clearfix"/>
