@@ -2,9 +2,11 @@
 /* This CSS is optimized for col-md-6 and col-md-6 Set at Category Level ONLY and 9 Products and 3 in one Row */
 p.wita_snippet_block_fonts_CreativeLandDesert {
   font-family: 'CreativeLandDesert', Arial, sans-serif;
+  font-size: 28px;
 }
 p.wita_snippet_block_fonts_NexaRustSans {
   font-family: 'NexaRustSans', Arial, sans-serif;
+  font-size: 20px;
 }
 .oe_product .oe_product_image {
   left: 0px;
