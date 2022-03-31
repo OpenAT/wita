@@ -143,8 +143,18 @@
                                </p>
                            </div>
                            <div class="category-goal">
-                               <p>
-                                    Gemeinsames Ziel: <t t-esc="category.goal"/>
+                               <p><t t-set="value_split" t-value="'{:g}'.format(category.goal)"/>
+                                    <t t-set="decimal_split" t-value="str(value_split).split('.')"/>
+                                    <t t-set="add_separators" t-value="'{:,}'.format(int(decimal_split[0]))"/>
+                                    <t t-set="result" t-value="add_separators.replace(',', '.')"/>
+                                    <t t-if="len(decimal_split) > 1">
+                                        <t t-set="final_result" t-value="','.join([result, decimal_split[1]])"/>
+                                    </t>
+                                    <t t-if="len(decimal_split) == 1">
+                                        <t t-set="final_result" t-value="result"/>
+                                    </t>
+
+                                    Gemeinsames Ziel: <t t-esc="final_result"/>€
                                </p>
                            </div>
                        </div>
@@ -155,6 +165,37 @@
                 </t>
             </xpath>
         </template>
+
+    <template id="website_wita_ekw_snippet_options" inherit_id="website.snippet_options">
+
+    <xpath expr="//div[@data-snippet-option-id='blog-style']//li" position="after">
+        <li class="dropdown-submenu" data-required="true">
+            <a tabindex="-1" href="#">Font-Styles</a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                    <a tabindex="-2" href="#">Fonts</a>
+                        <ul class="dropdown-menu">
+                            <li data-value='wita_snippet_block_fonts_CreativeLandDesert'><a>CreativeLandDesert</a></li>
+                            <li data-value='wita_snippet_block_fonts_NexaRustSans'><a>NexaRustSans</a></li>
+                            <li data-value=""><a>Default</a></li>
+                        </ul>
+                </li>
+<!--
+                <li class="dropdown-submenu">
+                    <a tabindex="-2" href="#">Headings</a>
+                        <ul class="dropdown-menu">
+                            <li data-value='wita_heading_red'><a>Überschrift rot</a></li>
+                            <li data-value='wita_heading_yellow'><a>Überschrift gelb</a></li>
+                            <li data-value='wita_heading_white'><a>Überschrift weiss</a></li>
+                        </ul>
+                </li>-->
+
+            </ul>
+        </li>
+    </xpath>
+
+
+    </template>
 
     </data>
 </openerp>

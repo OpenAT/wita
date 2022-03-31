@@ -1,5 +1,11 @@
 /* Special Cart Shop View */
 /* This CSS is optimized for col-md-6 and col-md-6 Set at Category Level ONLY and 9 Products and 3 in one Row */
+p.wita_snippet_block_fonts_CreativeLandDesert {
+  font-family: 'CreativeLandDesert', Arial, sans-serif;
+}
+p.wita_snippet_block_fonts_NexaRustSans {
+  font-family: 'NexaRustSans', Arial, sans-serif;
+}
 .oe_product .oe_product_image {
   left: 0px;
   right: 0px;
@@ -500,6 +506,9 @@
 }
 #products_grid_before.small_cart_header a {
   color: #394b53;
+}
+.small_cart #cart_products > tbody > tr > td:nth-child(2) > div:nth-child(3) {
+  display: none;
 }
 /*  .oe_product.oe-height-2 {
       height: 330px !important;

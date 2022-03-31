@@ -60,6 +60,8 @@
                 {name: 'H4-OS', element: 'h4' , attributes : { 'class' : 'h4-os' } },
                 {name: 'H5-OS', element: 'h5' , attributes : { 'class' : 'h5-os' } },
                 {name: 'H6-OS', element: 'h6' , attributes : { 'class' : 'h6-os' } },
+                {name: 'DesertLandBlock', element: 'p', attributes: { 'class': 'wita_snippet_block_fonts_CreativeLandDesert' } },
+                {name: 'NexaRustSans', element: 'p', attributes: { 'class': 'wita_snippet_block_fonts_NexaRustSans' } },
                 {name: 'Formatted', element: 'pre'},
                 {name: 'Address', element: 'address'},
             ];
