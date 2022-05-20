@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="fson_employer" model="mail.message.subtype">
+            <field name="name">FS-Online Employer</field>
+            <field name="res_model" eval="False"/>
+            <field name="default" eval="False"/>
+        </record>
+
+    </data>
+</openerp>
