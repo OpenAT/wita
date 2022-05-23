@@ -6,6 +6,7 @@
             <field name="name">FS-Online Employer</field>
             <field name="res_model" eval="False"/>
             <field name="default" eval="False"/>
+            <field name="xml_id">fso_mail_message_subtypes_employer.fson_employer</field>
         </record>
 
     </data>
