@@ -12,8 +12,8 @@ class ResPartnerEmployer(models.Model):
     employer_web = fields.Char(string='Employer')
 
     def create_employer_mail_message(self, partner, values):
-        if "employer_web" in values:
-            employer = values.get('employer_web', '')
+        employer = values.get('employer_web', False)
+        if employer:
             message_body = employer + "\n" + \
                            '---\n' +\
                            'Arbeitgeber'
