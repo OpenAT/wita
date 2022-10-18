@@ -945,6 +945,12 @@
                                                                                                             </t>
                                                                                                             <t t-raw="olconditionals3">
                                                                                                             </t>
+                                                                                                            <p style="text-align: left;">
+                                                                                                                <span class="ckediting_enabled drop_in drop_next drop_in_button dadi_di_button_normal dadi_di_button_inline dadi_di_button_red"><a href="https://wienertafel.at/spenden">Jetzt Spenden</a></span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small">
+                                                                                                                <br />
+                                                                                                            </p>
                                                                                                             <p class="wita_small" style="text-align: left;">
                                                                                                                 <span style="color:#ea470d;">
                                                                                                                     Folge
@@ -1089,7 +1095,7 @@
                              src="/fso_website_email_wita/static/src/icons/wita_footer_icon_orange.png"/>
                         <span class="oe_snippet_thumbnail_title">Footer Neu Orange</span>
                     </div>
-                    <div id="combinedsnippetfootergrey" class="oe_snippet_body ckediting_disabled wita_bin">
+                    <div id="combinedsnippetfooterorange" class="oe_snippet_body ckediting_disabled wita_bin">
                         <div class="ckediting_disabled snippet_block snippet_block_text_threecol wita_sb_bg_red"
                              contenteditable="false">
                             <table cellpadding="0" cellspacing="0" class="centeringTable">
@@ -1279,6 +1285,12 @@
                                                                                                             </t>
                                                                                                             <t t-raw="olconditionals3">
                                                                                                             </t>
+                                                                                                            <p style="text-align: left;">
+                                                                                                                <span class="ckediting_enabled drop_in drop_next drop_in_button dadi_di_button_normal dadi_di_button_inline dadi_di_button_yellow"><a href="https://wienertafel.at/spenden">Jetzt Spenden</a></span>
+                                                                                                            </p>
+                                                                                                            <p class="wita_small">
+                                                                                                                <br />
+                                                                                                            </p>
                                                                                                             <p class="wita_small" style="text-align: left;">
                                                                                                                 <span style="color:#ef7c00;">
                                                                                                                     Folge
