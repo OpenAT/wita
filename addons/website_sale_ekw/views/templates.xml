@@ -10,13 +10,13 @@
 
         <template id="theme_wita_ekw" name="WITA Website Theme" inherit_id="website.layout">
                 <xpath expr="//head" position="inside">
-                    <t t-if="category.id == 4 if category else False">
+                    <t t-if="(category.id == 4 or category.id == 7) if category else False">
                         <link rel='preload stylesheet' as='style' href='/website_sale_ekw/static/src/css/custom_ekw_fonts.css' t-ignore="true"/>
                         <link rel='stylesheet' href='/website_sale_ekw/static/src/css/ekw_theme.css' t-ignore="true"/>
                     </t>
                 </xpath>
                 <xpath expr="//body" position="inside">
-                        <t t-if="category.id == 4 if category else False">
+                        <t t-if="(category.id == 4 or category.id == 7) if category else False">
                             <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.min.js"/>
                             <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.js"/>
                             <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.path.js"/>
@@ -29,7 +29,7 @@
 <!--            <template id="wita_assets_frontend" inherit_id="website_forum.assets_frontend" name="wita CSS and JS">
                     &lt;!&ndash;<xpath expr='//script[@src="/website_forum/static/src/js/website_forum.js"]' position="after">&ndash;&gt;
                     <xpath expr="//body" position="inside">
-                            <t t-if="category.id == 4 if category else False">
+                            <t t-if="(category.id == 4 or category.id == 7) if category else False">
                                 <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.min.js"/>
                                 <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.flip.js"/>
                                 <script type="text/javascript" src="/website_sale_ekw/static/src/js/jquery.path.js"/>
@@ -43,7 +43,7 @@
         <template id="products_item_wita" inherit_id="website_sale.products_item" name="wita Product Description">
             <xpath expr="//div[@itemprop='offers']" position="after">
             <!-- wita Product Description -->
-            <t t-if="category.id == 4 if category else False">
+            <t t-if="(category.id == 4 or category.id == 7) if category else False">
                 <div class="text-info oe_subdescription" contenteditable="false">
                     <div itemprop="description" t-field="product.description_sale"></div>
                 </div>
@@ -62,7 +62,7 @@
 
             <!-- Icon Container for Javascript Flip Animation -->
             <xpath expr="//div[@class='oe_product_image']" position="after">
-                <t t-if="category.id == 4 if category else False">
+                <t t-if="(category.id == 4 or category.id == 7) if category else False">
 <!--
                      Product Image
 -->
@@ -81,7 +81,7 @@
 
         <template id="products_item_flipback" inherit_id="website_sale_donate.wsd_products_item_image_extraboxes" name="wita Products Item Image back">
             <xpath expr="//div[@class='wrap_wsd_2']" position="after">
-                <t t-if="category.id == 4 if category else False">
+                <t t-if="(category.id == 4 or category.id == 7) if category else False">
                     <div class="back">
                         <div class="wsd-icon_container">
                             <img src="/website_sale_ekw/static/src/img/product_icon.png" class="wsd-animated-giftbox"/>
@@ -93,7 +93,7 @@
 
         <template id="products_item_flip_image_addclassfront" inherit_id="products_item_flipback" name="wita Products Item Flip Image">
             <xpath expr="//div[@class='wrap_wsd_2']" position="attributes">
-                <t t-if="category.id == 4 if category else False">
+                <t t-if="(category.id == 4 or category.id == 7) if category else False">
                     <attribute name="class">wrap_wsd_2 front</attribute>
                 </t>
             </xpath>
@@ -106,7 +106,7 @@
             <!-- ATTENTION: FOR THE WEBSITE RELAUNCH THE CART WAS MOVED AFTER THE GRID (REQUESTED BY ANDI FROM FLOATWORKS) BUT SINCE THE CSS WAS ALREADY DONE I HAD TO KEEP THE DIV BOX ID #products_grid_before -->
             <xpath expr="//div[@id='products_grid_before']" position="replace"></xpath>
             <xpath expr="//div[@id='products_grid']" position="after">
-                <t t-if="category.id == 4 if category else False">
+                <t t-if="(category.id == 4 or category.id == 7) if category else False">
                     <div id="products_grid_before" class="col-md-4">
                         <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
                         <!-- Small Cart Header -->
