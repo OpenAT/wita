@@ -73,7 +73,6 @@
             <!-- ================= -->
 
             <head>
-                <meta content="initial-scale=1" name="viewport" />
                 <link data-premailer="ignore" rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
                 <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
@@ -182,8 +181,6 @@
                 
                 <!-- THEME wita CSS-ASSETS -->
                 <t t-call-assets="fso_website_email_wita.email_theme_wita_assets" t-js="false"/>
-                
-                <meta name="viewport" content="width=device-width"/>
             </head>
 
 
