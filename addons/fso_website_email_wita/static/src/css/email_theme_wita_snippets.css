@@ -3,7 +3,7 @@
 /* ------------------------------- */
 
 .flexibleContainer {
-    width: 650px;
+    max-width: 650px;
 }
     #combinedsnippetfooter .snippet_block_text_four_colums > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table {
         float: left;
@@ -60,11 +60,11 @@
     max-width: 610px;
 }
 .snippet_block_banner.dadi_sb_bg_full .flexibleImage {
-    width: 650px;
+    width: 100%;
     max-width: 650px;
 }
 .snippet_block_banner.dadi_sb_bg_narrow .flexibleImage {
-    width: 570px;
+    width: 100%;
     max-width: 570px;
 }
 

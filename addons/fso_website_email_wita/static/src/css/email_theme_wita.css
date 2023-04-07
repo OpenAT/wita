@@ -32,7 +32,7 @@ html body #wrapwrap {
 /* wita SIZING FOR 650 PIXEL WIDTH */
 /* ------------------------------- */
 #emailBody {
-    width: 650px;
+    max-width: 650px;
 }
 
 /* ---------- */
