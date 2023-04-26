@@ -979,6 +979,9 @@
                                                                                                                 <a href="https://www.instagram.com/wiener_tafel/" target="_blank" style="text-decoration:none;">
                                                                                                                     <img class="sm-icon-tw" width="32" style="width:32px; border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Extern_SocialMedia_Insta.png"></img>
                                                                                                                 </a>
+                                                                                                                <a href="https://www.linkedin.com/company/wiener-tafel/" target="_blank" style="text-decoration:none;">
+                                                                                                                    <img class="sm-icon-tw" width="32" style="width:32px; border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Extern_SocialMedia_LinkedIn.png"></img>
+                                                                                                                </a>
                                                                                                                 <br></br><br></br><br></br><br></br><br></br>
                                                                                                             </div>
                                                                                                             <t t-set="olconditionals4">
@@ -1317,6 +1320,9 @@
                                                                                                                 </a>
                                                                                                                 <a href="https://www.instagram.com/wiener_tafel/" target="_blank" style="text-decoration:none;">
                                                                                                                     <img class="sm-icon-tw" width="32" style="width:32px; border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Intern_SocialMedia_Insta.png"></img>
+                                                                                                                </a>
+                                                                                                                <a href="https://www.linkedin.com/company/wiener-tafel/" target="_blank" style="text-decoration:none;">
+                                                                                                                    <img class="sm-icon-tw" width="32" style="width:32px; border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;" align="left" vspace="10" hspace="10" src="/fso_website_email_wita/static/src/icons/WT_Newsletter_Footer_Intern_SocialMedia_LinkedIn.png"></img>
                                                                                                                 </a>
                                                                                                                 <br></br><br></br><br></br><br></br><br></br>
                                                                                                             </div>
