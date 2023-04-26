@@ -517,3 +517,9 @@
     background-repeat: no-repeat;
     background-color: #666;
 }*/
+
+.social-media-table .flexibleContainer33,
+.social-media-table .flexibleContainer33 .flexibleImage
+{
+    width: 130px;
+}
