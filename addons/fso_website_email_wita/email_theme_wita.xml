@@ -73,7 +73,6 @@
             <!-- ================= -->
 
             <head>
-                <link data-premailer="ignore" rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
                 <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
                 <style type="text/css" data-premailer="ignore">
