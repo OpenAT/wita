@@ -103,5 +103,11 @@
 
     </template>
 
+		<template name="WITA custom survey page" id="wita_survey_page" inherit_id="survey.page">
+            <!-- Remove page header -->
+            <xpath expr="//div[@class='page-header']" position="replace">
+            </xpath>
+        </template>
+        
     </data>
 </openerp>
