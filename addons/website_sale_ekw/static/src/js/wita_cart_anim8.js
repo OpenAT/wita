@@ -1,5 +1,8 @@
 $(document).ready( function() {
 	var relaunch = 0; /*( window.location.href.indexOf( 'wita-relaunch-css' ) > -1 ) ? 1 : 0;*/
+
+	scroll_to_cart_if_at_least_one_item_in_cart();
+
 	// rotation help-function
 	$.fn.animateRotate = function(angle, duration, delay, easing, complete) {
 		if ( !relaunch ) {
@@ -179,4 +182,11 @@ function getItemCount() {
 		count = 0;
 	}
 	return count;
+}
+
+function scroll_to_cart_if_at_least_one_item_in_cart() {
+    if (document.getElementsByName('product_info').length > 0) {
+        var $target = $('.spenden_paket_bg');
+        scroolIntoBottomView($target);
+    }
 }
