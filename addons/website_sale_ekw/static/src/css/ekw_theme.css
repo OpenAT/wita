@@ -109,7 +109,7 @@ p.wita_snippet_block_fonts_NexaRustSans {
   font-family: 'NexaRustSans', Arial, sans-serif;
 }
 #products_grid:before {
-  content: 'wählen Sie die Lebensmittel';
+  content: 'Füllen Sie den Einkaufswagen';
   font-family: 'NexaRustSans', Arial, sans-serif;
   display: block;
   width: 200px;
